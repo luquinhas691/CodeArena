@@ -1,7 +1,18 @@
+import java.util.ArrayList;
+
 public class QuestionBank{
-    // Perguntas
-    Question question_math_level1_tf = [" 2 x 2 ", ""]
-    Question question_portuguese_leve1_tf = new QuestionBank(["Qual é o coletivo correto para um grupo de peixes? ",
-        "Qual a função sintática do pronome relativo em: Este é o cargo a que aspiro?"], "Facil")
+    ArrayList<Question> eazy_questions = new ArrayList<>();
+    
+    public void firstLevel() { // Perguntas do nível 1
+
+        eazy_questions.add(new Question(". Qual é o coletivo correto para um grupo de peixes?", 
+            new String[]{"Alcateia", "Cardume", "Enxame", "Constelação"}, 1, 10
+        ));
+
+        eazy_questions.add(new Question("Assinale a alternativa em que a palavra está escrita corretamente:", 
+        new String[]{"Eceção", "Analisar", "Meza", "Egetar" }, 1, 10));
+
+    }
+
     
 }

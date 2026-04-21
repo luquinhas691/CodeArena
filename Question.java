@@ -1,10 +1,14 @@
 public class Question {
-    private String enunciado;
-    private String dificuldade;
-    private String[] alternativas;
-    private String respostaCorreta;
-    private int score;
-    private int choice;
+    String enunciado;         
+    String[] alternativas;        
+    int resposta;  
+    int score;              
 
-   
+    public Question(String enunciado, String[] alternativas, int resposta, int score) {
+        this.enunciado = enunciado;
+        this.alternativas = alternativas;
+        this.resposta = resposta;
+        this.score = score;
+        
+    }
 }
