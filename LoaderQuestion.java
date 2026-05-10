@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class LoaderQuestion {
     public static void main(String[] args) {
-        File file = new File("C:\\Users\\Bandim\\Desktop\\CodeArena-main\\CodeArena-main\\Arquivos\\portuguesequestion.txt");
+        File file = new File("C:\\Users\\Seusuario\\Desktop\\CodeArena-main\\CodeArena-main\\Arquivos\\portuguesequestion.txt"); // Aqui deve-se alterar o diretório selecionado
         
         Scanner scFile = null;
         Scanner keyboard = new Scanner(System.in);
