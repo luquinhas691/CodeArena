@@ -1,0 +1,49 @@
+[INTRO]
+A tarde estava calma na universidade.
+Pete e Hanny estavam sentados à mesa, conversando sobre o dia a dia,
+quando um barulho estranho cortou o burburinho da multidão.
+Antes que pudessem reagir... um dos dois desapareceu.
+
+[ESCOLHA]
+Com qual estudante você vai jogar?
+1) Pete — estudante de Matemática (100 HP, 32 de ataque)
+   Habilidade: dobra o tempo nas perguntas cronometradas.
+2) Hanny — estudante de Português (120 HP, 22 de ataque)
+   Habilidade: elimina uma alternativa errada nas questões difíceis.
+
+[POS_ESCOLHA]
+Entre gritos e correria, você avança pelo corredor.
+Um goblin estranho vai deixando rastros pelo chão.
+Quando você acha que está perto... as salas se fecham.
+O ambiente universitário inteiro vira uma masmorra.
+
+[FASE1_ENTRADA]
+Você para diante da primeira sala.
+Uma figura de pedra emerge da parede e bloqueia a passagem.
+
+[FASE2_ENTRADA]
+Você chega na sala dois.
+Uma pedra bloqueia o caminho. Você tenta mover...
+...e ouve um som vindo do teto.
+
+[FASE3_ENTRADA]
+A sala três é inundada.
+Plataformas flutuam sobre uma água escura e silenciosa.
+Você hesita — e é atacado.
+
+[FASE4_ENTRADA]
+Lava. Fogo. Caos.
+Seu amigo está no braço do Goblin Rei, que ri no alto do seu trono.
+Esta é a hora. Não há mais volta.
+
+[VITORIA]
+O Goblin Rei cai.
+Seu amigo corre em sua direção.
+A masmorra desmorona ao redor de vocês enquanto correm para a saída.
+Vocês conseguiram.
+
+[GAME_OVER]
+Sua barra de vida chegou a zero.
+A masmorra se fecha ao redor de você.
+Seu amigo permanece prisioneiro...
+Mas talvez uma nova tentativa possa mudar esse destino.
