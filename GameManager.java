@@ -6,8 +6,7 @@ public class GameManager {
     public GameManager(ScriptLoader sLoader) {
         this.script = sLoader;
     }
-
-    // O MOTOR DE ATRASO: Ninguém mais vê, ele trabalha sozinho
+    
     private void imprimirComSoneca(String texto) {
         if (texto == null) return;
         
@@ -22,13 +21,13 @@ public class GameManager {
         System.out.println(); // Pula linha automático no fim
     }
 
-    // FUNÇÃO ÚNICA: Você só usa essa para o roteiro inteiro
+    
     public void dizer(String tag) {
         String conteudo = script.getTexto(tag);
         imprimirComSoneca(conteudo);
     }
 
-    // Atalhos para o seu Main continuar funcionando sem erro
+    
     public void exibirIntro() {
         dizer("INTRODUCAO");
     }
