@@ -1,66 +1,46 @@
-/**
- * Representa uma pergunta do jogo.
- * O arquivo .txt deve seguir o formato:
- *
- *   Enunciado da pergunta
- *   A) op1|B) op2|C) op3|D) op4
- *   A          <- resposta correta
- *   2          <- pontos
- *   FACIL      <- dificuldade: FACIL, MEDIO ou DIFICIL
- *              <- linha em branco separando perguntas
- */
 public class Question {
+    
     private String enunciado;
-    private String[] alternativas; // separadas por '|'
-    private String respostaCorreta;
-    private int pontos;
-    private Dificuldade dificuldade;
+    private String[] alternativas;
+    private String resposta;
+    private int score;
 
-    public enum Dificuldade {
-        FACIL, MEDIO, DIFICIL
-    }
-
-    public Question(String enunciado, String[] alternativas, String respostaCorreta,
-                    int pontos, Dificuldade dificuldade) {
+    // Construtor
+    public Question(String enunciado, String[] alternativas, String resposta, int score) {
         this.enunciado = enunciado;
         this.alternativas = alternativas;
-        this.respostaCorreta = respostaCorreta;
-        this.pontos = pontos;
-        this.dificuldade = dificuldade;
+        this.resposta = resposta;
+        this.score = score;
     }
 
-    public boolean verificarResposta(String escolha) {
-        return escolha.trim().equalsIgnoreCase(respostaCorreta.trim());
+    // Getters 
+    public String getEnunciado() { return enunciado;}
+    public String[] getAlternativas() {return alternativas;}
+    public String getResposta() {return resposta;}
+    public int getScore() {return score;}
+
+    // Setters
+    public void setEnunciado(String enunciado) { this.enunciado = enunciado; }
+    public void setAlternativas(String[] alternativas) {this.alternativas = alternativas;}
+    public void setResposta(String resposta) {this.resposta = resposta;}
+    public void setScore(int score) {this.score = score;}
+
+    // Funções porra
+    
+    public void mostrarEnunciado() {
+        System.out.println("Enunciado: " + this.enunciado);
     }
 
-    /** Para a habilidade da Hanny: retorna uma alternativa errada aleatória para eliminar */
-    public String alternativaErradaAleatoria() {
-        java.util.List<String> erradas = new java.util.ArrayList<>();
-        for (String alt : alternativas) {
-            String letra = alt.trim().substring(0, 1);
-            if (!letra.equalsIgnoreCase(respostaCorreta.trim())) {
-                erradas.add(letra);
+    public void mostrarAlternativas() {
+        if (alternativas != null) {
+            for (String alt : alternativas) {
+                System.out.println("  " + alt.trim());
             }
         }
-        if (erradas.isEmpty()) return null;
-        return erradas.get((int)(Math.random() * erradas.size()));
     }
 
-    // Getters
-    public String getEnunciado()        { return enunciado; }
-    public String[] getAlternativas()   { return alternativas; }
-    public String getRespostaCorreta()  { return respostaCorreta; }
-    public int getPontos()              { return pontos; }
-    public Dificuldade getDificuldade() { return dificuldade; }
-
-    /** Exibe a pergunta formatada no terminal */
-    public void exibir() {
-        System.out.println("\n========================================");
-        System.out.println("QUESTÃO [" + dificuldade + "]: " + enunciado);
-        for (String alt : alternativas) {
-            System.out.println("  " + alt.trim());
-        }
-        System.out.println("========================================");
-        System.out.print("Sua resposta: ");
+    public boolean validarResposta(String entradaUsuario) {
+        if (entradaUsuario == null) return false;
+        return entradaUsuario.trim().equalsIgnoreCase(this.resposta.trim());
     }
 }
