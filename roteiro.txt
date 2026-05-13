@@ -1,0 +1,45 @@
+[INTRODUCAO]
+É um dia ensolarado no campus da Univerisidade de Pernambuco. O sol do meio dia queima o couro cabeludo de qualquer um que passe mais de dois minutos de pé em um canto sem sombra. O barulho de gente indo e vindo toma conta do local, são vários alunos de vários cursos, todos eles preocupados com coisas da vida acadêmica, mas espere! Quem é você?
+
+[PETE]
+Descricao:
+Nome : Pete
+Curso: Matemática
+Dizem que ele é bom com o tempo, como se passasse mais devagar...
+
+[HANNY]
+Descricao:
+Nome : Hanny
+Curso: Português
+Os seus amigos sempre dizem que ela é uma boa dedutora, como se conseguisse eliminar possiveis erros...
+
+[INTRODUCAO_PETE] 
+Você espera no pateo central, tem muita gente saindo do banheiro, mas nada dela chegar. Aonde será que essa menina foi? De repente, em meio a sua espera ela chega e vocês dois vão almoçar.
+O cheiro do queijo quente toma conta do ambiente em que vocês estão, era lasanha em seu prato, ela estava feliz com sua sopa e ambos almoçavam feliz.
+- Você viu que o abaixo assinado contra Meiciel já tem quase cem assinaturas? Aquele cara é o mestre das reprovações! - Hanny pergunta.
+- Por que fariam isso? Ele é um cara tão gente boa... 
+Um estrondo toda conta da UPE, de repente o chão treme, sua lasanha cai no chão e você é derrubado junto com o almoço. Você se levanta, Hanny sumiu. As paredes começam a sangrar, o ceu fica escuro como num eclipse. Você vê gente correndo desesperada, a única coisa que você escuta é um "AHHHHHHHHHHHHHHHHHHHHHHHHHHH!" Bem fino, era Hanny sendo captada por um monstro estranho! Você corre atrás dela...
+
+[INTRODUCAO_HANNY] 
+Você espera no pateo central, tem muita gente saindo do banheiro, mas nada dele chegar. Aonde será que essa menino foi? De repente, em meio a sua espera ele chega e vocês dois vão almoçar.
+O cheiro de legumes puros toma conta do ambiente em que vocês estão, era sopa em seu prato, ele estava feliz com sua lasanha e ambos almoçavam feliz.
+- Sabe uma coisa engraçada? O professor Dair tá discutindo um possivel contrato para fazer progapaganda para a Malboro - Pete comenta.
+- Sério? - você ri. - O que ele tem de tão especial para ser patrocionado por eles... 
+Um estrondo toda conta da UPE, de repente o chão treme, sua lasanha cai no chão e você é derrubado junto com o almoço. Você se levanta, Pete sumiu. As paredes começam a sangrar, o ceu fica escuro como num eclipse. Você vê gente correndo desesperada, a única coisa que você escuta é um "SOCORRO! SOCORRO!" Bem fino, era Hanny sendo captada por um monstro estranho! Você corre atrás dela...
+
+[FASE1]
+Você correu muito atrás de seu colega, até se deparar que as paredes fecharam ao seu redor, tudo ficou... verde? Tem musgo para todo lado, eca! Pedras tomam conta do local, parece uma caverna dos trolls... De repente você vê algo se mexer e rolar, é uma pedra grande, bem grande. Ela se mexe de novo, e revela um rosto velho. Nossa, que assustador! Pedras não têm rosto. Ela enfim pisca os olhos e acorda.
+- Seja bem vindo a maldição do conhecimento! Todo século duas almas são escolhidas, uma precisa ajudar a outra que foi raptada pelo Goblin raivoso, se você conseguir salvar seu colega, provará que ainda existe fé na humanidade, mas se não... o goblin raivoso amaldiçoará o mundo.
+- Quem é você!? Pedras não falam! E que maldição é essa? O que tenho que fazer?
+- Tudo que você precisa fazer, é responder algumas perguntas e passar para a próxima fase. Você está acha que tem preparo? Vamos começar!
+
+[FASE1_PERDA]
+O homem pedra fecha a cara, ele está furioso com você.
+- Como você pode ser tão burro e não conseguir acertar essas questões tão elementares? Você falhou, e agora o mundo terá seu fim.
+
+[FASE1_GANHO]
+O homem pedra dá um sorriso simpático, ele parece feliz com sua vitória.
+- Meus parabéns! Você provou seu valor, vamos, pegue isso.
+Ele lhe entrega uma adaga brilhante, a luz do reflexo encadeia seus olhos, parece metal puro...  continuacao futura
+
+[FASE 2 E ASSIM POR DIANTE - pode ignorar, ainda em teste]
