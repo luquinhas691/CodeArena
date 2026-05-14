@@ -1,0 +1,128 @@
+7 + 5 = ?
+A) 10|B) 11|C) 12|D) 13
+C
+1
+9 x 3 = 27 (V/F)
+A) Verdadeiro|B) Falso
+A
+1
+15 - 8 = ?
+A) 5|B) 6|C) 7|D) 8
+C
+1
+4^2 = 16 (V/F)
+A) Verdadeiro|B) Falso
+A
+1
+6 x 4 = ?
+A) 20|B) 22|C) 24|D) 26
+C
+1
+18 / 3 = 5 (V/F)
+A) Verdadeiro|B) Falso
+B
+1
+10 + 2 x 3 = ?
+A) 36|B) 16|C) 15|D) 20
+B
+1
+5 + 5 x 2 = 20 (V/F)
+A) Verdadeiro|B) Falso
+B
+1
+Simplifique: 3x + 5x - 2
+A) 8x - 2|B) 10x|C) 6x|D) 15x - 2
+A
+2
+2(x + 3) + 4 = 2x + 10 (V/F)
+A) Verdadeiro|B) Falso
+A
+2
+Calcule x^2 + 3x + 4 para x = 2
+A) 10|B) 12|C) 14|D) 16
+C
+2
+x^2 + x^2 = 2x^2 (V/F)
+A) Verdadeiro|B) Falso
+A
+2
+10 + 2(3 + 4) = ?
+A) 84|B) 24|C) 34|D) 20
+B
+2
+5 + 3 x 2^2 = 17 (V/F)
+A) Verdadeiro|B) Falso
+A
+2
+Calcule 2x + 3 para x = 4
+A) 9|B) 10|C) 11|D) 12
+C
+2
+(x + 2)^2 = x^2 + 4x + 4 (V/F)
+A) Verdadeiro|B) Falso
+A
+2
+Fatore a expressão: x^2 - 9
+A) (x-3)(x-3)|B) (x+3)(x-3)|C) (x+9)(x-9)|D) x(x-9)
+B
+3
+(x + 5)^2 = x^2 + 10x + 25 (V/F)
+A) Verdadeiro|B) Falso
+A
+3
+Resolva x^2 - 5x = 0
+A) x=0 e x=5|B) x=5|C) x=0 e x=-5|D) x=25
+A
+3
+2x(x + 3) = 2x^2 + 6x (V/F)
+A) Verdadeiro|B) Falso
+A
+3
+Desenvolva: (x + 2)(x + 3)
+A) x^2 + 5x + 6|B) x^2 + 6x + 5|C) x^2 + 5|D) 2x + 5
+A
+3
+x^2 - 4x + 4 = (x - 2)^2 (V/F)
+A) Verdadeiro|B) Falso
+A
+3
+Resolva 2x + 3 = 11
+A) x=3|B) x=4|C) x=5|D) x=7
+B
+3
+(x - 1)(x - 1) = x^2 - 1 (V/F)
+A) Verdadeiro|B) Falso
+B
+3
+Qual o limite de (x^2 - 1)/(x - 1) quando x tende a 1?
+A) 0|B) 1|C) 2|D) Infinito
+C
+5
+A derivada de x^3 e 3x^2? (V/F)
+A) Verdadeiro|B) Falso
+A
+5
+Qual a derivada de 3x^2 + 5x - 7?
+A) 6x + 5|B) 3x + 5|C) 6x|D) 6x - 7
+A
+5
+A integral de x^2 e (x^3)/3 + C? (V/F)
+A) Verdadeiro|B) Falso
+A
+5
+Qual a integral de (2x + 1) dx?
+A) x^2 + x + C|B) 2x^2 + x + C|C) x^2 + C|D) 2x + C
+A
+5
+O limite de sin(x)/x quando x tende a 0 e 1? (V/F)
+A) Verdadeiro|B) Falso
+A
+5
+Qual a derivada de ln(x)?
+A) e^x|B) 1/x|C) 1|D) x
+B
+5
+A integral de 1/x dx e ln|x| + C? (V/F)
+A) Verdadeiro|B) Falso
+A
+5
