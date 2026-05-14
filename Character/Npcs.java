@@ -5,7 +5,7 @@ public class Npcs {
     public static Enemy homemMorcego;
     public static Enemy sereia;
     public static Enemy goblin;
-
+    // Esses são os personagens que fazem parte do fluxo principal do jogo
     public static void inicializarNpcs() {
         pete = new Player("Pete", 100, 35);
         hanny = new Player("Hanny", 120, 25);
