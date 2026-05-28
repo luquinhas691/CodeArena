@@ -6,9 +6,12 @@ public class Main {
         Scanner teclado = new Scanner(System.in); // leitor
         
         // Carregadores
-        QuestionLoader loaderPt = new QuestionLoader("C:\\Users\\Bandim\\Desktop\\CodeCode\\CodeArena_Copy-main\\portuguesequestion.txt");
-        QuestionLoader loaderMt = new QuestionLoader("C:\\Users\\Bandim\\Desktop\\CodeCode\\CodeArena_Copy-main\\math.txt");
-        RoteiroLoader jogo = new RoteiroLoader("C:\\Users\\Bandim\\Desktop\\CodeCode\\CodeArena_Copy-main\\roteiro.txt");
+        QuestionLoader loaderPt =
+        new QuestionLoader("CodeArena-main/Questions/portuguesequestion.txt");
+        QuestionLoader loaderMt =
+        new QuestionLoader("CodeArena-main/Questions/math.txt");
+        RoteiroLoader jogo =
+        new RoteiroLoader("CodeArena-main/Game/roteiro.txt");
        
         // Perguntas portugues
         Faceis nivelFacilPt = new Faceis(loaderPt);
