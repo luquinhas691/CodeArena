@@ -71,19 +71,30 @@ Você entra na terceira sala, sente terra em seus pés, o que é isso? Você dá
 - Eu sou a sereia Selene. - Ela some em uma das plataformas. É belissima, mas carrega toda a maldade no coração. - Achou que atravessaria tão fácil? Não não não. Não sem antes passar por mim! * Continuo depois
 
 [FASE3_PERDA]
-A ESCREVER
+Selene dá um sorriso malicioso e olha pra você indiferente :
+- Sinceramente esperava mais de você.
 
 [FASE3_GANHO]
-A SER ESCCRITO
+A sereia tomba no chão. A água seca ao seu redor.
+- É, você é mais forte do que eu pensava. - Selene diz, derrotada.
+Você não olha pra trás e avança.
 
 [FASE4]
-das
+Você entra na última sala, o seu último desafio. O cenário é de lava e de fogo, o suor escorre pela sua testa.
+Há um monstro de 3 metros de altura na sua frente. Verde. Aterrorizador. Um goblin. 
+- Venha atrás do que você quer estudante abominável!
+Lá está sua melhor companhia de estudos, que solta gritos de pavor nas mãos daquele mosntro. Tudo o que você precisa fazer agora, é lutar e acabar com isso.
 
 [FASE4_PERDA]
-PERDEUHIHI
+-MUAHAHHAHAHA - Grita o monstro verde, enquanto pula de um lado para o outro de forma sádica. - Fraco! Fraco!
+Ele esmaga seu amigo, que sucumbe no mesmo instante, enquanto você cai no chão em desespero, você perdeu.
 
 [FASE4_GANHO]
-THE WINNER TAKES IT ALL!
+Depois de todos os acertos, você dá o golpe final naquele goblin nojento, é fatal!
+- AHHHHHHHHHHHHHHHHH! - ele grita, enquanto cai lentamente no chão tropeçando para o rio de lava, e afundando lentamente.
+- Você coseguiu! - grita seu amigo, correndo para lhe abraçar.
+- Foi dificil, mas eu o derrotei.
+Ambos abrem o sorriso, lágrimas de esperança e agradecimento correm em seus olhos, finalmente acabaram com aquela maldição.
 
 [FINAL_GAME]
-EBAA
+Depois que todos os quatro monstros do conhecimento foram aniquilados, vocês veem o céu se abrir, tudo o que era destruição, cheiro de enxofre e escuridão volta a fluir num cenário limpo e claro do que antes era a universidade de pernambuco. Fim.
