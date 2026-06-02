@@ -1,0 +1,399 @@
+Resolva: 2(x + 3) = 14
+A) 6|B) 4|C) 5|D) 3
+B
+18
+
+Resolva: 3x - 5 = 16
+A) 8|B) 5|C) 6|D) 7
+D
+19
+
+Resolva: 4(x - 2) = 20
+A) 7|B) 8|C) 6|D) 5
+A
+20
+
+Resolva: 5x + 7 = 32
+A) 6|B) 5|C) 4|D) 7
+B
+21
+
+Resolva: 2(3x - 1) = 22
+A) 3|B) 6|C) 4|D) 5
+C
+22
+
+Resolva: 6x + 9 = 45
+A) 6|B) 8|C) 5|D) 7
+A
+23
+
+Resolva: 7(x - 1) = 28
+A) 7|B) 6|C) 4|D) 5
+D
+24
+
+Resolva: 4x - 12 = 0
+A) 5|B) 4|C) 3|D) 2
+C
+25
+
+Resolva: 3(x + 4) = 27
+A) 6|B) 7|C) 4|D) 5
+D
+18
+
+Resolva: 8x + 4 = 52
+A) 7|B) 6|C) 8|D) 5
+B
+19
+
+Quanto é 1/2 + 1/3?
+A) 3/5|B) 5/6|C) 1/2|D) 2/3
+B
+20
+
+Quanto é 3/4 - 1/8?
+A) 1/2|B) 3/8|C) 7/8|D) 5/8
+D
+21
+
+Quanto é 2/5 de 30?
+A) 12|B) 10|C) 14|D) 15
+A
+22
+
+Quanto é 3/5 de 40?
+A) 20|B) 24|C) 22|D) 26
+B
+23
+
+Quanto é 1/4 de 84?
+A) 18|B) 21|C) 24|D) 20
+B
+24
+
+Quanto é 5/6 de 36?
+A) 30|B) 34|C) 32|D) 24
+A
+25
+
+Quanto é 2/3 + 1/6?
+A) 2/3|B) 3/4|C) 1|D) 5/6
+D
+18
+
+Quanto é 7/8 - 1/4?
+A) 3/8|B) 1/2|C) 5/8|D) 7/8
+C
+19
+
+Quanto é 4/5 de 50?
+A) 40|B) 35|C) 30|D) 45
+A
+20
+
+Quanto é 3/10 de 90?
+A) 24|B) 30|C) 33|D) 27
+D
+21
+
+Qual é 15% de 200?
+A) 20|B) 35|C) 30|D) 25
+C
+22
+
+Qual é 20% de 150?
+A) 40|B) 25|C) 20|D) 30
+D
+23
+
+Um produto de R$ 250 recebe desconto de 10%. Qual o novo preço?
+A) R$ 200|B) R$ 230|C) R$ 240|D) R$ 225
+D
+24
+
+Um valor de 80 aumenta 25%. Qual é o novo valor?
+A) 95|B) 105|C) 100|D) 90
+C
+25
+
+Qual é 12% de 500?
+A) 60|B) 55|C) 50|D) 65
+A
+18
+
+Uma peça de R$ 120 sofre desconto de 15%. Qual o preço final?
+A) R$ 108|B) R$ 100|C) R$ 102|D) R$ 105
+C
+19
+
+Qual é 30% de 240?
+A) 72|B) 60|C) 75|D) 80
+A
+20
+
+Um número é 50 e aumenta 20%. Qual passa a ser o valor?
+A) 65|B) 70|C) 55|D) 60
+D
+21
+
+Qual é 8% de 300?
+A) 18|B) 28|C) 20|D) 24
+D
+22
+
+Uma mercadoria de R$ 400 recebe desconto de 25%. Qual o valor final?
+A) R$ 320|B) R$ 350|C) R$ 300|D) R$ 280
+C
+23
+
+Em um triângulo, dois ângulos medem 45° e 60°. Qual é o terceiro?
+A) 70°|B) 80°|C) 65°|D) 75°
+D
+24
+
+Qual é a hipotenusa de um triângulo retângulo com catetos 6 e 8?
+A) 12|B) 10|C) 14|D) 9
+B
+25
+
+Qual é a área de um triângulo com base 12 e altura 5?
+A) 25|B) 35|C) 40|D) 30
+D
+18
+
+Qual é o perímetro de um quadrado de lado 11?
+A) 42|B) 48|C) 44|D) 40
+C
+19
+
+Qual é a área de um círculo de raio 3? (use π ≈ 3,14)
+A) 31,40|B) 18,84|C) 28,26|D) 24,00
+C
+20
+
+A soma dos ângulos internos de um quadrilátero é:
+A) 400°|B) 360°|C) 270°|D) 180°
+B
+21
+
+Qual é o volume de um bloco retangular 2 × 3 × 4?
+A) 28|B) 20|C) 18|D) 24
+D
+22
+
+Qual é o lado de um quadrado cuja área é 49 cm²?
+A) 7|B) 8|C) 6|D) 5
+A
+23
+
+Em um triângulo equilátero, cada ângulo interno mede:
+A) 120°|B) 90°|C) 45°|D) 60°
+D
+24
+
+Qual é o perímetro de um retângulo 9 × 7?
+A) 34|B) 28|C) 30|D) 32
+D
+25
+
+Qual é a área de um paralelogramo com base 10 e altura 6?
+A) 72|B) 50|C) 60|D) 66
+C
+18
+
+Num ângulo raso, um dos ângulos mede 110°. O outro mede:
+A) 90°|B) 60°|C) 70°|D) 80°
+C
+19
+
+Desenvolva: 2(x + 7)
+A) x + 14|B) 2x + 14|C) 2x - 14|D) 2x + 7
+B
+20
+
+Desenvolva: 3(a - 4)
+A) 3a - 4|B) a - 12|C) 3a + 12|D) 3a - 12
+D
+21
+
+Fatore: 6x + 12
+A) 3(x + 4)|B) 6(x + 2)|C) 6(x - 2)|D) 2(x + 6)
+B
+22
+
+Calcule: 5² - 3²
+A) 8|B) 10|C) 20|D) 16
+D
+23
+
+Calcule: (2 + 3) × 4 - 6
+A) 16|B) 12|C) 14|D) 18
+C
+24
+
+Calcule: 18 ÷ (3 + 3)
+A) 2|B) 3|C) 6|D) 4
+B
+25
+
+Calcule: 2³ × 2²
+A) 24|B) 64|C) 16|D) 32
+D
+18
+
+Calcule: 7 + 4 × 3
+A) 15|B) 33|C) 21|D) 19
+D
+19
+
+Calcule: (10 - 2)²
+A) 48|B) 64|C) 72|D) 80
+B
+20
+
+Calcule: 15 - 3 × 2 + 4
+A) 13|B) 10|C) 16|D) 19
+A
+21
+
+Complete a sequência: 3, 6, 9, 12, ___
+A) 14|B) 15|C) 18|D) 16
+B
+22
+
+Complete a sequência: 2, 4, 8, 16, ___
+A) 36|B) 24|C) 32|D) 30
+C
+23
+
+Complete a sequência: 100, 90, 80, 70, ___
+A) 60|B) 50|C) 65|D) 75
+A
+24
+
+Complete a sequência: 1, 4, 9, 16, ___
+A) 24|B) 25|C) 21|D) 20
+B
+25
+
+Complete a sequência: 5, 10, 20, 40, ___
+A) 60|B) 90|C) 80|D) 70
+C
+18
+
+Complete a sequência: 7, 11, 15, 19, ___
+A) 25|B) 27|C) 21|D) 23
+D
+19
+
+Complete a sequência: 50, 45, 40, 35, ___
+A) 30|B) 25|C) 32|D) 28
+A
+20
+
+Complete a sequência: 1, 2, 3, 5, 8, ___
+A) 15|B) 14|C) 13|D) 11
+C
+21
+
+Qual é a média de 4, 6, 8 e 10?
+A) 9|B) 7|C) 6|D) 8
+B
+22
+
+Qual é a mediana de 3, 9, 5, 1, 7?
+A) 7|B) 5|C) 6|D) 3
+B
+23
+
+Qual é a moda de 2, 4, 4, 5, 6, 4, 7?
+A) 5|B) 7|C) 4|D) 6
+C
+24
+
+Se um dado é lançado, qual é a chance de sair um número par?
+A) 4/6|B) 2/6|C) 1/6|D) 1/2
+D
+25
+
+Em uma urna com 3 bolas vermelhas e 2 azuis, qual a probabilidade de tirar uma azul?
+A) 1/5|B) 2/3|C) 3/5|D) 2/5
+D
+18
+
+Qual é a média de 10, 20 e 30?
+A) 20|B) 15|C) 30|D) 25
+A
+19
+
+Qual é a mediana de 8, 2, 9, 4, 6?
+A) 6|B) 8|C) 9|D) 4
+A
+20
+
+Qual é a moda de 1, 1, 2, 3, 3, 3, 4?
+A) 2|B) 1|C) 3|D) 4
+C
+21
+
+Se há 5 camisetas e 2 são pretas, qual a fração de camisetas pretas?
+A) 2/5|B) 2/3|C) 3/5|D) 1/5
+A
+22
+
+Se um aluno acerta 18 de 20 questões, qual foi seu aproveitamento?
+A) 80%|B) 85%|C) 90%|D) 95%
+C
+23
+
+Uma pessoa compra 3 cadernos de R$ 18. Quanto paga?
+A) R$ 54|B) R$ 48|C) R$ 60|D) R$ 63
+A
+24
+
+Um carro percorre 120 km em 2 horas. Qual foi a velocidade média?
+A) 80 km/h|B) 50 km/h|C) 70 km/h|D) 60 km/h
+D
+25
+
+Se um trabalho leva 6 dias para 4 pessoas, quantos dias levará para 8 pessoas, assumindo o mesmo ritmo?
+A) 5 dias|B) 2 dias|C) 3 dias|D) 4 dias
+C
+18
+
+Uma piscina tem 10 m de comprimento e 4 m de largura. Qual é a área?
+A) 14 m²|B) 44 m²|C) 20 m²|D) 40 m²
+D
+19
+
+Uma compra de R$ 360 será dividida igualmente entre 12 pessoas. Quanto cada uma paga?
+A) R$ 24|B) R$ 30|C) R$ 36|D) R$ 32
+B
+20
+
+Um reservatório tem 500 L e perde 50 L. Quantos litros restam?
+A) 450 L|B) 430 L|C) 400 L|D) 460 L
+A
+21
+
+Se um produto custa R$ 80 e sofre aumento de 50%, qual é o novo preço?
+A) R$ 120|B) R$ 130|C) R$ 110|D) R$ 100
+A
+22
+
+Pedro leu 45 páginas em 3 dias, sempre no mesmo ritmo. Quantas páginas por dia?
+A) 18|B) 15|C) 12|D) 10
+B
+23
+
+Uma sala tem 8 fileiras com 6 cadeiras em cada. Quantas cadeiras há?
+A) 56|B) 42|C) 54|D) 48
+D
+24
+
+Se um relógio atrasa 20 minutos por dia, em 5 dias atrasa quantos minutos?
+A) 60 minutos|B) 80 minutos|C) 120 minutos|D) 100 minutos
+D
+25
