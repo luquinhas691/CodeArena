@@ -8,6 +8,8 @@ import java.util.Scanner;
 public class Game {
     private RoteiroLoader roteiro;
     private Scanner scanner;
+    String arquivoA;
+    String arquivoB;
 
     public Game() {
         scanner = new Scanner(System.in);
@@ -23,11 +25,15 @@ public class Game {
 
         if (jogador.getNome().equals("Pete")) {
             roteiro.introducaoPete();
+            arquivoA = "MT_A.txt";
+            arquivoB = "MT_B.txt";
         } else {
             roteiro.introducaoHanny();
+            arquivoA = "PT_A.txt";
+            arquivoB = "PT_B.txt";
         }
 
-        QuestionLoader ql = new QuestionLoader("PT_A.txt", "PT_B.txt");
+        QuestionLoader ql = new QuestionLoader(arquivoA, arquivoB);
         BattleManager bm  = new BattleManager(ql, roteiro, jogador, scanner);
 
         if (!bm.fase1()) { gameOver(); return; }
