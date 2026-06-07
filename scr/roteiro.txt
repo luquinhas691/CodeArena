@@ -68,7 +68,7 @@ Você o deixa para trás e as portas se abrem, você segue para a fase seguinte.
 Você entra na terceira sala, sente terra em seus pés, o que é isso? Você dá mais um passo e... cuidado! A sala está cheia de água! Parece até um oceano, peixes nadam de lá para cá naquela água azul e algas tomam conta da vegetação. De frente, você percebe que tem outros pedaços de terra que te levam a uma porta, mas provavelmente deve estar fechada. Você pula para o da frente e então... AI! Alguma coisa bate na sua cabeça, você olha para cima, nada de homem morcego. De repente uma voz doce toma conta do local.
 - Não não não! - canta a voz doce. - Ele sempre foi um aluno mal, um aluno mal! - cantarola.
 - Quem está aí? E que cantaria é essa? - Então você nota um corpo grande nadando para lá e para cá.
-- Eu sou a sereia Selene. - Ela some em uma das plataformas. É belissima, mas carrega toda a maldade no coração. - Achou que atravessaria tão fácil? Não não não. Não sem antes passar por mim! * Continuo depois
+- Eu sou a sereia Selene. - Ela some em uma das plataformas. É belissima, mas carrega toda a maldade no coração. - Achou que atravessaria tão fácil? Não não não. Não sem antes passar por mim! 
 
 [FASE3_PERDA]
 Selene dá um sorriso malicioso e olha pra você indiferente :
