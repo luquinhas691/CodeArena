@@ -1,12 +1,6 @@
 package character;
 
-/**
- * Representa o personagem controlado pelo jogador.
- *
- * Cada personagem carrega uma {@link Habilidade} concreta, mas o
- * BattleManager acessa-a exclusivamente pelo tipo da interface,
- * garantindo que o jogo dependa de abstrações, não de implementações.
- */
+// Dados do personagem escolhido pelo jogador
 public class Player extends Character {
 
     /** Habilidade especial deste personagem. Nunca null após construção. */
