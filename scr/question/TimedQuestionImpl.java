@@ -5,15 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.concurrent.atomic.AtomicReference;
 
-/**
- * Implementação de {@link TimedQuestion}.
- *
- * O jogo deve sempre referenciar objetos desta classe pelo tipo
- * da interface (TimedQuestion), garantindo o polimorfismo exigido.
- *
- * Leitura com tempo: uma thread separada aguarda a entrada do usuário;
- * a thread principal interrompe após o tempo limite.
- */
+// Implementação das questões com limite de tempo
 public class TimedQuestionImpl implements TimedQuestion {
 
     private final Question question;
