@@ -1,15 +1,6 @@
 package character;
 
-/**
- * Habilidade de Hanny: Dedução Lógica.
- *
- * Permite que UMA questão seja acertada automaticamente sem que o
- * usuário precise digitir a resposta. O BattleManager consulta
- * {@link #estaDisponivel()} antes de exibir a pergunta; se disponível,
- * chama {@link #ativar()} e trata o turno como acerto automático.
- *
- * Uso único: a habilidade expira após o primeiro acionamento.
- */
+// Habilidade que permite acertar uma questão automaticamente
 public class HabilidadeAutoAcerto implements Habilidade {
 
     private boolean disponivel = true;
