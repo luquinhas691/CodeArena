@@ -174,11 +174,7 @@ public class BattleManager {
     // ------------------------------------------------------------------
     //  Lógica de habilidades — acesso exclusivo via interface Habilidade
     // ------------------------------------------------------------------
-
-    /**
-     * Verifica se a habilidade pode acertar automaticamente
-     
-     */
+  
     private boolean tentarAutoAcerto() {
         Habilidade h = jogador.getHabilidade();
         if (h instanceof character.HabilidadeAutoAcerto && h.estaDisponivel()) {
@@ -188,8 +184,6 @@ public class BattleManager {
         return false;
     }
 
-  
-  // Calcula o tempo disponível para responder
    
     private int resolverTempoEfetivo() {
         Habilidade h = jogador.getHabilidade();
