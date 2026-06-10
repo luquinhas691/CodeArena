@@ -1,12 +1,6 @@
 package character;
 
-/**
- * Contrato de uma habilidade especial de personagem.
- *
- * O BattleManager manipula habilidades exclusivamente por este tipo,
- * sem conhecer implementações concretas, garantindo o polimorfismo
- * solicitado pelo projeto.
- */
+// Interface das habilidades dos personagens
 public interface Habilidade {
 
     /** Nome descritivo exibido ao jogador. */
