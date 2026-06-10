@@ -11,16 +11,7 @@ import question.TimedQuestion;
 import question.TimedQuestionImpl;
 import java.util.Scanner;
 
-/**
- * Gerencia o fluxo de batalha de cada fase.
- *
- * Habilidades dos personagens são acessadas exclusivamente via
- * {@link Habilidade}, garantindo que o BattleManager dependa de
- * abstrações e não de implementações concretas (Pete/Hanny).
- *
- * Da mesma forma, questões cronometradas (fase 4+) são manipuladas
- * apenas pelo tipo {@link TimedQuestion}.
- */
+
 public class BattleManager {
 
     /** Tempo base (segundos) para questões cronometradas. */
@@ -140,14 +131,7 @@ public class BattleManager {
     //  Batalha cronometrada (fase 4) — usa TimedQuestion + Habilidade
     // ------------------------------------------------------------------
 
-    /**
-     * O BattleManager:
-     *  1. Resolve o tempo efetivo consultando a {@link Habilidade} de Pete
-     *     (HabilidadeTempoExtra) sem downcast — apenas verifica o tipo via
-     *     {@code instanceof} para obter o bônus de tempo;
-     *  2. Verifica o auto-acerto de Hanny via {@link Habilidade#estaDisponivel()};
-     *  3. Cria e usa as questões exclusivamente pelo tipo {@link TimedQuestion}.
-     */
+
     private boolean batalhaComTempo(Enemy inimigo) {
         int tempoEfetivo = resolverTempoEfetivo();
 
@@ -192,15 +176,8 @@ public class BattleManager {
     // ------------------------------------------------------------------
 
     /**
-     * Verifica se a habilidade do jogador é do tipo que concede auto-acerto
-     * e, caso disponível, a consome.
-     *
-     * O BattleManager usa apenas a interface {@link Habilidade}: o único
-     * ponto de acoplamento concreto está no {@code instanceof} necessário
-     * para distinguir os efeitos distintos das habilidades. Fora disso,
-     * todo acesso passa pela interface.
-     *
-     * @return true se a questão deve ser acertada automaticamente
+     * Verifica se a habilidade pode acertar automaticamente
+     
      */
     private boolean tentarAutoAcerto() {
         Habilidade h = jogador.getHabilidade();
@@ -211,11 +188,9 @@ public class BattleManager {
         return false;
     }
 
-    /**
-     * Resolve o tempo efetivo de resposta para a fase 4.
-     * Se Pete (HabilidadeTempoExtra) ainda não usou a habilidade, ativa-a
-     * e soma o bônus ao tempo base. Caso contrário, usa o tempo base.
-     */
+  
+  // Calcula o tempo disponível para responder
+   
     private int resolverTempoEfetivo() {
         Habilidade h = jogador.getHabilidade();
         if (h instanceof character.HabilidadeTempoExtra && h.estaDisponivel()) {
