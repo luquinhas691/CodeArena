@@ -3,10 +3,9 @@ package character;
 // Interface das habilidades dos personagens
 public interface Habilidade {
 
-    /** Nome descritivo exibido ao jogador. */
+
     String getNome();
 
-    /** Descrição breve do efeito da habilidade. */
     String getDescricao();
 
     /**
