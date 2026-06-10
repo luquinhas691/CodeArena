@@ -1,9 +1,6 @@
 package game;
 
-/**
- * Exibe os blocos de roteiro com pausa proporcional ao tamanho do texto,
- * dando tempo ao jogador para ler antes de continuar.
- */
+// Exibe as partes da história do jogo
 public class RoteiroLoader {
     private ScriptLoader loader;
 
