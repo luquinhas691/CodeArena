@@ -5,11 +5,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.concurrent.atomic.AtomicReference;
 
-// Implementação das questões com limite de tempo
+
 public class TimedQuestionImpl implements TimedQuestion {
 
     private final Question question;
-    private final int tempoLimite; // segundos
+    private final int tempoLimite;
 
     public TimedQuestionImpl(Question question, int tempoLimite) {
         this.question    = question;
@@ -53,7 +53,7 @@ public class TimedQuestionImpl implements TimedQuestion {
 
         Thread leitor = new Thread(() -> {
             try {
-                // Aguarda até a linha ficar disponível ou a thread ser interrompida
+               
                 while (!Thread.currentThread().isInterrupted() && !br.ready()) {
                     Thread.sleep(50);
                 }
@@ -68,9 +68,9 @@ public class TimedQuestionImpl implements TimedQuestion {
         System.out.print("> ");
         leitor.start();
 
-        // Contador regressivo visível
+       
         for (int seg = tempoLimite; seg > 0; seg--) {
-            if (!leitor.isAlive()) break; // usuário já respondeu
+            if (!leitor.isAlive()) break; 
             System.out.print("\r> [" + seg + "s restantes] ");
             try {
                 Thread.sleep(1000);
@@ -86,9 +86,9 @@ public class TimedQuestionImpl implements TimedQuestion {
         if (resultado.get() == null) {
             System.out.println("\n⌛ Tempo esgotado!");
         } else {
-            System.out.println(); // quebra de linha após contador
+            System.out.println(); 
         }
 
-        return resultado.get(); // null = tempo esgotou
+        return resultado.get(); 
     }
 }
