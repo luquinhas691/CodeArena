@@ -1,13 +1,6 @@
 package character;
 
-/**
- * Habilidade de Pete: Controle do Tempo.
- *
- * Efeito passivo que o BattleManager lê via {@link Habilidade} para
- * aumentar o tempo limite das {@code TimedQuestion} da fase 4.
- *
- * Uso único: após consultado, marca-se como consumido.
- */
+// Concede tempo extra para responder questões
 public class HabilidadeTempoExtra implements Habilidade {
 
     /** Segundos extras concedidos ao tempo padrão da questão. */
