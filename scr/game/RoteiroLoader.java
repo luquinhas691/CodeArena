@@ -4,10 +4,7 @@ package game;
 public class RoteiroLoader {
     private ScriptLoader loader;
 
-    /**
-     * Milissegundos de espera base por linha de texto exibida.
-     * Ajuste este valor para calibrar o ritmo da narrativa.
-     */
+   
     private static final int MS_POR_LINHA = 1800;
 
     /** Pausa mínima garantida após qualquer bloco (ms). */
@@ -49,11 +46,7 @@ public class RoteiroLoader {
     //  Lógica de exibição com pausa proporcional
     // ---------------------------------------------------------------
 
-    /**
-     * Recupera o texto da tag e o imprime linha a linha com efeito
-     * "máquina de escrever" suave. Ao final, pausa proporcional ao
-     * número de linhas para que o jogador possa ler confortavelmente.
-     */
+
     private void exibir(String tag) {
         String texto = loader.getText(tag);
         System.out.println(texto);
@@ -62,10 +55,10 @@ public class RoteiroLoader {
         long pausa = Math.max(PAUSA_MINIMA, (long) linhas * MS_POR_LINHA);
 
         aguardar(pausa);
-        System.out.println(); // linha em branco para separação visual
+        System.out.println(); 
     }
 
-    /** Dorme silenciosamente pelo tempo indicado (ms). */
+
     private static void aguardar(long ms) {
         try {
             Thread.sleep(ms);
