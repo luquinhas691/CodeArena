@@ -1,6 +1,5 @@
 package character;
 
-// Habilidade que permite acertar uma questão automaticamente
 public class HabilidadeAutoAcerto implements Habilidade {
 
     private boolean disponivel = true;
