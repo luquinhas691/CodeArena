@@ -15,7 +15,7 @@ public class Player extends Character {
     //  Habilidade – exposta apenas pela interface
     // ------------------------------------------------------------------
 
-  // Retorna a habilidade do personagem
+  
     public Habilidade getHabilidade() {
         return habilidade;
     }
