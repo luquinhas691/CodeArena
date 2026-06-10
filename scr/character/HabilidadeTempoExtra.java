@@ -1,6 +1,6 @@
 package character;
 
-// Concede tempo extra para responder questões
+
 public class HabilidadeTempoExtra implements Habilidade {
 
     /** Segundos extras concedidos ao tempo padrão da questão. */
