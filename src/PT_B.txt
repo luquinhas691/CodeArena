@@ -1,389 +1,309 @@
-Indique se a frase está correta (V) ou incorreta (F): "Fazem três anos que não o vejo."
-A) Verdadeiro|B) Falso
-B
-23
+VF
+"Fazem cinco anos que estudo aqui" está correta.
+F
+15
 
-Complete a lacuna com a palavra adequada: "Ela chegou ___ casa depois do expediente."
-A) na|B) em|C) a|D) à
-C
+PREENCHER
+Complete: "Ela chegou ___ escola depois do expediente." (preposição + artigo)
+à
 19
 
-Qual das palavras abaixo NÃO é um verbo?
-A) Cantar|B) Felicidade|C) Correr|D) Partir
-B
+VF
+"Felicidade" é um substantivo, não um verbo.
+V
 24
 
-Reescreva a frase colocando o pronome na posição correta: "___ disse ele a verdade?" (começando com o pronome)
-A) Ele disse-me|B) Disse-me ele|C) Me disse ele|D) Ele me disse
-D
-21
-
+MULTIPLA
 Assinale a opção em que o termo "só" funciona como advérbio:
 A) Ele está só.|B) Só quero descansar.|C) Um só homem.|D) Ele veio só.
 B
 22
 
-Identifique o erro de concordância verbal:
-A) Os meninos saíram cedo.|B) A menina chegaram atrasada.|C) Nós fomos ao cinema.|D) Elas cantaram bem.
-B
+PREENCHER
+Na frase "A menina chegaram atrasada", o erro é de concordância ___.
+verbal
 25
 
-Complete a palavra com a letra correta: "Can___a"
-A) SS|B) S|C) Ç|D) C
-C
-18
-
-Qual das alternativas apresenta um exemplo de metáfora?
-A) O vento sussurrava.|B) A vida é uma montanha-russa.|C) O cachorro late alto.|D) A mesa é quadrada.
-B
+VF
+A metáfora "A vida é uma montanha-russa" é uma figura de linguagem.
+V
 23
 
+MULTIPLA
 Indique a frase em que o verbo "haver" foi usado como impessoal:
 A) Eles haviam chegado.|B) Houve muitos problemas.|C) Havemos de vencer.|D) Ele há de vir.
 B
 20
 
-Reorganize as palavras na ordem correta: "amanhã / eu / viajo / cedo"
-A) Eu viajo cedo amanhã.|B) Amanhã cedo eu viajo.|C) Viajo eu amanhã cedo.|D) Cedo amanhã eu viajo.
-B
-24
-
-Qual palavra é formada por derivação sufixal?
-A) Infeliz|B) Encontrar|C) Livremente|D) Desleal
-C
+PREENCHER
+A palavra formada por derivação sufixal entre "infeliz", "encontrar" e "livremente" é ___.
+livremente
 19
 
-Complete a lacuna: "Ele é ____ aluno da turma."
-A) o mais bom|B) o melhor|C) o mais melhor|D) o bom
-B
+VF
+"O mais melhor aluno" está incorreto.
+V
 22
 
-Assinale a alternativa em que todas as palavras são paroxítonas:
-A) Fácil, tórax, vírus|B) Café, você, parabéns|C) Lâmpada, árvore, música|D) Mar, sol, chá
-A
+PREENCHER
+As palavras "fácil", "tórax" e "vírus" são todas ___ (oxítonas/paroxítonas/proparoxítonas).
+paroxítonas
 25
 
-Transforme a frase para a voz passiva: "O menino quebrou o vidro."
-A) O vidro foi quebrado pelo menino.|B) O menino foi quebrado pelo vidro.|C) O vidro quebrou o menino.|D) Quebrou-se o vidro.
-A
+VF
+"O vidro foi quebrado pelo menino" é a voz passiva de "O menino quebrou o vidro".
+V
 18
 
-Indique se a palavra "mal" está empregada corretamente: "Ele caiu e torceu o mal."
-A) Correto|B) Incorreto, deveria ser "mau"
-B
+PREENCHER
+Na frase "Ele caiu e torceu o mal", deveria usar-se ___ no lugar de "mal".
+mau
 21
 
+MULTIPLA
 Complete a frase com a conjunção adequada: "Estude bastante, ___ será reprovado."
 A) mas|B) porém|C) senão|D) contudo
 C
 23
 
-Qual alternativa apresenta erro de regência nominal?
-A) Ele é acessível a todos.|B) Sou grato com você.|C) Estou apto para o cargo.|D) Ele é leal ao time.
-B
+VF
+"Sou grato com você" apresenta erro de regência nominal.
+V
 20
 
-Assinale a palavra escrita incorretamente:
-A) Ansiedade|B) Piscina|C) Derrepente|D) Exceção
-C
+PREENCHER
+A palavra escrita incorretamente entre "ansiedade", "piscina", "derrepente" e "exceção" é ___.
+derrepente
 24
 
-Complete a palavra: "E__tômago"
-A) S|B) SS|C) Ç|D) SC
-A
+VF
+A palavra "estômago" começa com "es".
+V
 19
 
-Na frase "Ela mesma organizou tudo", a palavra "mesma" exerce função de:
-A) Pronome reflexivo|B) Pronome recíproco|C) Pronome demonstrativo|D) Pronome de realce
-D
+PREENCHER
+Na frase "Ela mesma organizou tudo", "mesma" exerce função de pronome de ___.
+realce
 22
 
-Qual das opções abaixo é um exemplo de onomatopeia?
-A) O relógio fez "tique-taque".|B) O carro é uma bala.|C) A noite está escura.|D) Ele é um leão.
-A
+VF
+"O relógio fez tique-taque" é um exemplo de onomatopeia.
+V
 25
 
+MULTIPLA
 Indique o item em que o acento diferencial ainda é obrigatório:
-A) Pode (verbo) / pôde (passado)|B) Por (preposição) / pôr (verbo)|C) A (preposição) / à (crase)|D) Todas acima
+A) Pode / pôde|B) Por / pôr|C) A / à|D) Todas acima
 B
 18
 
-Complete a frase com "porque", "porquê", "por que" ou "por quê": "Não sei o ____ da demissão."
-A) porque|B) porquê|C) por que|D) por quê
-B
+PREENCHER
+Em "Não sei o ___ da demissão", a forma correta é ___.
+porquê
 22
 
-Assinale a frase com sujeito simples:
-A) Choveu muito ontem.|B) Precisa-se de ajudantes.|C) O menino e a menina saíram.|D) O carro quebrou.
-D
+VF
+Na frase "O carro quebrou", o sujeito é simples.
+V
 20
 
-Qual palavra NÃO é um adjetivo?
-A) Feliz|B) Tristeza|C) Rápido|D) Inteligente
-B
+PREENCHER
+Entre "feliz", "tristeza", "rápido" e "inteligente", o que NÃO é adjetivo é ___.
+tristeza
 24
 
-Complete a lacuna: "Ela chegou ____ meia-noite."
-A) a|B) as|C) à|D) às
-D
+VF
+"Ela chegou às meia-noite" está incorreto.
+V
 19
 
+MULTIPLA
 Indique a alternativa correta quanto ao uso da vírgula:
 A) João, Pedro e Maria chegaram.|B) João Pedro, e Maria chegaram.|C) João Pedro e Maria, chegaram.|D) João, Pedro e, Maria chegaram.
 A
 23
 
-Qual é o coletivo de "abelhas"?
-A) Cardume|B) Enxame|C) Manada|D) Alcateia
-B
+PREENCHER
+O coletivo de "abelhas" é ___.
+enxame
 21
 
-Transforme a frase para a voz reflexiva: "Ela penteou o cabelo."
-A) Ela se penteou.|B) O cabelo foi penteado.|C) Pentearam o cabelo dela.|D) Ela foi penteada.
-A
+VF
+"Ela se penteou" é a voz reflexiva de "Ela penteou o cabelo".
+V
 25
 
-Complete a palavra: "A___ento"
-A) SS|B) C|C) SC|D) SÇ
-A
-18
-
-Assinale a opção em que o verbo "ter" é auxiliar:
-A) Tenho dois filhos.|B) Tenho estudado muito.|C) Tenho dinheiro.|D) Tenho pressa.
-B
+VF
+O verbo "ter" é auxiliar na frase "Tenho estudado muito".
+V
 22
 
-Qual alternativa apresenta um substantivo sobrecomum?
-A) O cliente / a cliente|B) O artista / a artista|C) O testemunha|D) O dentista / a dentista
-C
+PREENCHER
+O substantivo sobrecomum entre as opções é ___ (que tem um único artigo para os dois gêneros).
+testemunha
 20
 
-Identifique o erro de ortografia:
-A) Enxergar|B) Exceção|C) Privilégio|D) Beneficiente
-D
+VF
+A palavra "beneficiente" está escrita incorretamente.
+V
 24
 
+MULTIPLA
 Complete a frase: "Ela saiu ___ procurar o livro."
 A) à|B) a|C) há|D) ah
 B
 19
 
-Na frase "O livro foi lido por Maria", a oração está na voz:
-A) Ativa|B) Passiva analítica|C) Passiva sintética|D) Reflexiva
-B
+VF
+"O livro foi lido por Maria" é uma oração na voz passiva analítica.
+V
 23
 
-Qual palavra é um numeral ordinal?
-A) Três|B) Terceiro|C) Meio|D) Ambos
-B
+PREENCHER
+O numeral ordinal entre "três", "terceiro", "meio" e "ambos" é ___.
+terceiro
 21
 
-Complete a lacuna: "___ muitos dias que não chove."
-A) Fazem|B) Faz|C) Estão fazendo|D) Haviam
-B
+VF
+"Faz muitos dias que não chove" está correta (verbo impessoal).
+V
 25
 
+MULTIPLA
 Assinale a alternativa em que o termo "a" exige crase:
 A) Vou a São Paulo.|B) Chegamos a noite.|C) Refiro-me a ela.|D) Voltamos a casa.
 B
 18
 
-Qual das palavras abaixo é um hiato?
-A) Pai|B) Mãe|C) Saúde|D) Quente
-C
+PREENCHER
+Na palavra "saúde", o fenômeno vocálico que ocorre é o ___.
+hiato
 22
 
-Complete a frase: "Se você _____, teria conseguido."
-A) tenta|B) tentasse|C) tentou|D) tentara
-B
+VF
+Na frase "Se você tentasse, teria conseguido", o verbo está no subjuntivo.
+V
 20
 
-Indique a palavra grafada com "G":
-A) Jirafa|B) Geladeira|C) Jogador|D) Jeito
-B
+PREENCHER
+A palavra grafada com "G" entre "jirafa", "geladeira", "jogador" e "jeito" é ___.
+geladeira
 24
 
-Assinale a frase com predicado verbal:
-A) O menino está cansado.|B) Ela parece feliz.|C) O carro quebrou.|D) Ele continua triste.
-C
+VF
+Na frase "O carro quebrou", o predicado é verbal.
+V
 19
 
-Complete a palavra: "Pro___ção"
-A) Je|B) Ge|C) Gê|D) Jê
-B
+PREENCHER
+A palavra que completa "Pro___ção" com a letra correta é "Ge", formando ___.
+projeção
 23
 
-Qual alternativa apresenta um verbo no futuro do pretérito?
-A) Cantarei|B) Cantava|C) Cantaria|D) Cantei
-C
+VF
+O verbo no futuro do pretérito termina em "-ria" (cantaria, faria, etc.).
+V
 21
 
-Na frase "Ele foi o único a chegar", a palavra "único" é:
-A) Substantivo|B) Adjetivo|C) Advérbio|D) Pronome
-B
+PREENCHER
+Na frase "Ele foi o único a chegar", "único" é um ___.
+adjetivo
 25
 
-Complete a frase com o pronome oblíquo correto: "___ vi ontem no cinema."
-A) O|B) Lhe|C) Me|D) Se
-A
+VF
+Na frase "O vi ontem no cinema", o pronome oblíquo "o" está correto.
+V
 18
 
+MULTIPLA
 Indique a opção em que "onde" foi usado incorretamente:
 A) A casa onde moro é antiga.|B) Não sei onde ele está.|C) O livro onde li é bom.|D) O país onde nasci é grande.
 C
 22
 
-Qual palavra abaixo é um aumentativo irregular?
-A) Casinha|B) Bocarra|C) Casarão|D) Portão
-B
+PREENCHER
+O aumentativo irregular de "boca" é ___.
+bocarra
 20
 
-Complete a lacuna: "Ela trabalha ___ tarde."
-A) a|B) à|C) até|D) as
-C
+VF
+"Ela trabalha até tarde" está correto.
+V
 24
 
+MULTIPLA
 Assinale a alternativa sem erro de concordância nominal:
 A) Ela mesmo fez.|B) Ela mesma fez.|C) Ele mesmo fizeram.|D) Ela mesma fizeram.
 B
 19
 
-Qual das palavras é escrita com "X"?
-A) Enchada|B) Enxada|C) Enchar|D) Enchente
-B
+VF
+"Enxada" é escrita com "x".
+V
 23
 
-Indique a frase em que o sujeito é indeterminado:
-A) Choveu muito.|B) Precisa-se de pedreiros.|C) O vento uivava.|D) João chegou.
-B
+PREENCHER
+Na frase "Precisa-se de pedreiros", o sujeito é ___.
+indeterminado
 21
 
-Complete a palavra: "Su___tivo"
-A) BS|B) BS|C) BZ|D) PS
-A
+VF
+Na frase "Na frase Ele é bonita, o verbo ser é de ligação".
+V
 25
 
-Na frase "Ele morreu de rir", a expressão "de rir" indica:
-A) Causa|B) Modo|C) Finalidade|D) Tempo
-A
-18
-
-Qual alternativa apresenta uma palavra trissílaba?
-A) Café|B) Árvore|C) Luz|D) Caminhão
-B
-22
-
-Complete a frase com a preposição correta: "Ele insistiu ___ sair sozinho."
-A) em|B) de|C) para|D) por
-A
-20
-
-Assinale a alternativa em que "a fim de" foi usado corretamente:
-A) Ele agiu a fim de ajudar.|B) Estou a fim de você.|C) Vim a fim de estudar.|D) A) e C) estão corretas
-D
-24
-
-Qual palavra é um falso cognato em relação ao inglês "library"?
-A) Livraria|B) Biblioteca|C) Livro|D) Livre
-A
+PREENCHER
+O advérbio de negação entre "sim", "não", "sempre" e "aqui" é ___.
+não
 19
 
-Indique o erro de regência verbal:
-A) Assisti ao filme.|B) Obedeço o regulamento.|C) Paguei o boleto.|D) Simpatizo com ela.
-B
+VF
+"Ela chegou a ponto de desistir" está escrito corretamente.
+V
 23
 
-Complete a palavra: "E___tante"
-A) X|B) XC|C) S|D) SS
-C
+PREENCHER
+Na frase "Ele andava triste", o verbo "andava" é de ___.
+ligação
 21
 
-Na frase "Ela estava radiante", o predicado é:
-A) Verbal|B) Nominal|C) Verbo-nominal|D) Composto
-B
+VF
+A frase "Venha aqui Maria" sem vírgula apresenta erro de pontuação.
+V
 25
 
-Qual alternativa apresenta uma conjunção conclusiva?
-A) Porque|B) Portanto|C) Embora|D) Se
-B
+PREENCHER
+O superlativo absoluto sintético de "rápido" é ___.
+rapidíssimo
 18
 
-Complete a lacuna: "Ele chegou ___ atrasado."
-A) meio|B) meia|C) meiota|D) mèdia
-A
+VF
+"Ótimo" é proparoxítona.
+V
 22
 
-Assinale a palavra escrita com "SC":
-A) A__endente|B) A__ento|C) A__ensão|D) A__ender
-A
+PREENCHER
+O sinônimo de "rápido" é ___.
+veloz
 20
 
-Indique a frase em que o verbo "ser" é de ligação:
-A) Ele é médico.|B) Ela é bonita.|C) A festa é hoje.|D) Isso é meu.
-B
-24
-
-Qual palavra abaixo é um advérbio de negação?
-A) Sim|B) Não|C) Sempre|D) Aqui
-B
-19
-
-Complete a frase: "Ela chegou ___ de desistir."
-A) a ponto|B) aponto|C) à ponto|D) a ponto de
-D
-23
-
-Na frase "Ele andava triste", o verbo "andava" é:
-A) Ação|B) Ligação|C) Fenômeno da natureza|D) Auxiliar
-B
-21
-
-Assinale a alternativa com erro de pontuação:
-A) Maria, venha aqui.|B) Venha aqui Maria.|C) Venha, Maria, aqui.|D) Maria venha aqui!
-B
-25
-
-Complete a palavra: "Ca___a"
-A) SS|B) S|C) Ç|D) SC
-C
-18
-
-Qual das palavras é proparoxítona?
-A) Órfão|B) Órgão|C) Ótimo|D) Óbito
-C
-22
-
-Indique o sinônimo de "rápido":
-A) Lento|B) Veloz|C) Triste|D) Forte
-B
-20
-
+MULTIPLA
 Complete a lacuna com o pronome relativo: "O homem ___ conheci é simpático."
 A) quem|B) que|C) cujo|D) onde
 B
 24
 
-Assinale a frase correta quanto à colocação pronominal:
-A) Me diga a verdade.|B) Diga-me a verdade.|C) Diga me a verdade.|D) Me disse ele.
-B
+VF
+"Diga-me a verdade" é a forma correta de colocação pronominal no imperativo.
+V
 19
 
-Qual alternativa apresenta um substantivo primitivo?
-A) Pedreiro|B) Flor|C) Florista|D) Floral
-B
-23
-
-Na frase "Ele gosta de futebol", o termo "de futebol" é:
-A) Objeto direto|B) Objeto indireto|C) Complemento nominal|D) Adjunto adverbial
-B
+PREENCHER
+Na frase "Ela gosta de futebol", o termo "de futebol" é objeto ___.
+indireto
 21
 
-Complete: "Ela estava ___ estressada com o trabalho."
-A) bastante|B) bastente|C) bastãte|D) bastanti
-A
-25
-
-Qual das palavras abaixo é um exemplo de polissemia?
-A) Banco (instituição ou assento)|B) Amor (sentimento)|C) Mesa (móvel)|D) Cadeira (objeto)
-A
+VF
+A palavra "banco" é um exemplo de polissemia (pode ser instituição ou assento).
+V
 18

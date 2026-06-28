@@ -1,399 +1,407 @@
+MULTIPLA
 Resolva: 2(x + 3) = 14
 A) 6|B) 4|C) 5|D) 3
 B
 18
 
-Resolva: 3x - 5 = 16
-A) 8|B) 5|C) 6|D) 7
-D
+VF
+3x - 5 = 16 tem solução x = 7.
+V
 19
 
-Resolva: 4(x - 2) = 20
-A) 7|B) 8|C) 6|D) 5
-A
+PREENCHER
+4(x - 2) = 20, então x = ___.
+7
 20
 
-Resolva: 5x + 7 = 32
-A) 6|B) 5|C) 4|D) 7
-B
+VF
+5x + 7 = 32 tem solução x = 5.
+V
 21
 
-Resolva: 2(3x - 1) = 22
-A) 3|B) 6|C) 4|D) 5
-C
+PREENCHER
+2(3x - 1) = 22, então x = ___.
+4
 22
 
-Resolva: 6x + 9 = 45
-A) 6|B) 8|C) 5|D) 7
-A
+VF
+6x + 9 = 45 tem solução x = 6.
+V
 23
 
+MULTIPLA
 Resolva: 7(x - 1) = 28
 A) 7|B) 6|C) 4|D) 5
 D
 24
 
-Resolva: 4x - 12 = 0
-A) 5|B) 4|C) 3|D) 2
-C
+PREENCHER
+4x - 12 = 0, então x = ___.
+3
 25
 
-Resolva: 3(x + 4) = 27
-A) 6|B) 7|C) 4|D) 5
-D
+VF
+3(x + 4) = 27 tem solução x = 5.
+F
 18
 
-Resolva: 8x + 4 = 52
-A) 7|B) 6|C) 8|D) 5
-B
+PREENCHER
+8x + 4 = 52, então x = ___.
+6
 19
 
-Quanto é 1/2 + 1/3?
-A) 3/5|B) 5/6|C) 1/2|D) 2/3
-B
+VF
+1/2 + 1/3 é igual a 5/6.
+V
 20
 
+MULTIPLA
 Quanto é 3/4 - 1/8?
 A) 1/2|B) 3/8|C) 7/8|D) 5/8
 D
 21
 
-Quanto é 2/5 de 30?
-A) 12|B) 10|C) 14|D) 15
-A
+PREENCHER
+2/5 de 30 = ___.
+12
 22
 
-Quanto é 3/5 de 40?
-A) 20|B) 24|C) 22|D) 26
-B
+VF
+3/5 de 40 é igual a 24.
+V
 23
 
-Quanto é 1/4 de 84?
-A) 18|B) 21|C) 24|D) 20
-B
+PREENCHER
+1/4 de 84 = ___.
+21
 24
 
-Quanto é 5/6 de 36?
-A) 30|B) 34|C) 32|D) 24
-A
+VF
+5/6 de 36 é igual a 30.
+V
 25
 
+MULTIPLA
 Quanto é 2/3 + 1/6?
 A) 2/3|B) 3/4|C) 1|D) 5/6
 D
 18
 
-Quanto é 7/8 - 1/4?
-A) 3/8|B) 1/2|C) 5/8|D) 7/8
-C
+PREENCHER
+7/8 - 1/4 = ___.
+5/8
 19
 
-Quanto é 4/5 de 50?
-A) 40|B) 35|C) 30|D) 45
-A
+VF
+4/5 de 50 é igual a 40.
+V
 20
 
-Quanto é 3/10 de 90?
-A) 24|B) 30|C) 33|D) 27
-D
+PREENCHER
+3/10 de 90 = ___.
+27
 21
 
-Qual é 15% de 200?
-A) 20|B) 35|C) 30|D) 25
-C
+VF
+15% de 200 é igual a 30.
+V
 22
 
+MULTIPLA
 Qual é 20% de 150?
 A) 40|B) 25|C) 20|D) 30
 D
 23
 
-Um produto de R$ 250 recebe desconto de 10%. Qual o novo preço?
-A) R$ 200|B) R$ 230|C) R$ 240|D) R$ 225
-D
+PREENCHER
+Um produto de R$ 250 com 10% de desconto custa R$ ___.
+225
 24
 
-Um valor de 80 aumenta 25%. Qual é o novo valor?
-A) 95|B) 105|C) 100|D) 90
-C
+VF
+Um valor de 80 aumentado em 25% resulta em 100.
+V
 25
 
-Qual é 12% de 500?
-A) 60|B) 55|C) 50|D) 65
-A
+PREENCHER
+12% de 500 = ___.
+60
 18
 
-Uma peça de R$ 120 sofre desconto de 15%. Qual o preço final?
-A) R$ 108|B) R$ 100|C) R$ 102|D) R$ 105
-C
+VF
+Uma peça de R$ 120 com 15% de desconto custa R$ 102.
+V
 19
 
-Qual é 30% de 240?
-A) 72|B) 60|C) 75|D) 80
-A
+PREENCHER
+30% de 240 = ___.
+72
 20
 
-Um número é 50 e aumenta 20%. Qual passa a ser o valor?
-A) 65|B) 70|C) 55|D) 60
-D
+VF
+50 aumentado em 20% é igual a 60.
+V
 21
 
-Qual é 8% de 300?
-A) 18|B) 28|C) 20|D) 24
-D
+PREENCHER
+8% de 300 = ___.
+24
 22
 
-Uma mercadoria de R$ 400 recebe desconto de 25%. Qual o valor final?
-A) R$ 320|B) R$ 350|C) R$ 300|D) R$ 280
-C
+VF
+Uma mercadoria de R$ 400 com 25% de desconto custa R$ 300.
+V
 23
 
+MULTIPLA
 Em um triângulo, dois ângulos medem 45° e 60°. Qual é o terceiro?
 A) 70°|B) 80°|C) 65°|D) 75°
 D
 24
 
-Qual é a hipotenusa de um triângulo retângulo com catetos 6 e 8?
-A) 12|B) 10|C) 14|D) 9
-B
+PREENCHER
+A hipotenusa de um triângulo retângulo com catetos 6 e 8 é ___.
+10
 25
 
-Qual é a área de um triângulo com base 12 e altura 5?
-A) 25|B) 35|C) 40|D) 30
-D
+VF
+A área de um triângulo com base 12 e altura 5 é 30.
+V
 18
 
-Qual é o perímetro de um quadrado de lado 11?
-A) 42|B) 48|C) 44|D) 40
-C
+PREENCHER
+O perímetro de um quadrado de lado 11 é ___.
+44
 19
 
-Qual é a área de um círculo de raio 3? (use π ≈ 3,14)
-A) 31,40|B) 18,84|C) 28,26|D) 24,00
-C
+VF
+A área de um círculo de raio 3 (π ≈ 3,14) é aproximadamente 28,26.
+V
 20
 
-A soma dos ângulos internos de um quadrilátero é:
-A) 400°|B) 360°|C) 270°|D) 180°
-B
+PREENCHER
+A soma dos ângulos internos de um quadrilátero é ___ graus.
+360
 21
 
-Qual é o volume de um bloco retangular 2 × 3 × 4?
-A) 28|B) 20|C) 18|D) 24
-D
+VF
+O volume de um bloco retangular 2 × 3 × 4 é 24.
+V
 22
 
-Qual é o lado de um quadrado cuja área é 49 cm²?
-A) 7|B) 8|C) 6|D) 5
-A
+PREENCHER
+O lado de um quadrado cuja área é 49 cm² é ___ cm.
+7
 23
 
-Em um triângulo equilátero, cada ângulo interno mede:
-A) 120°|B) 90°|C) 45°|D) 60°
-D
+VF
+Em um triângulo equilátero cada ângulo interno mede 60°.
+V
 24
 
-Qual é o perímetro de um retângulo 9 × 7?
-A) 34|B) 28|C) 30|D) 32
-D
+PREENCHER
+O perímetro de um retângulo 9 × 7 é ___.
+32
 25
 
-Qual é a área de um paralelogramo com base 10 e altura 6?
-A) 72|B) 50|C) 60|D) 66
-C
+VF
+A área de um paralelogramo com base 10 e altura 6 é 60.
+V
 18
 
-Num ângulo raso, um dos ângulos mede 110°. O outro mede:
-A) 90°|B) 60°|C) 70°|D) 80°
-C
+PREENCHER
+Se um ângulo raso mede 110° de um lado, o outro mede ___ graus.
+70
 19
 
-Desenvolva: 2(x + 7)
-A) x + 14|B) 2x + 14|C) 2x - 14|D) 2x + 7
-B
+VF
+O desenvolvimento de 2(x + 7) é 2x + 14.
+V
 20
 
+MULTIPLA
 Desenvolva: 3(a - 4)
 A) 3a - 4|B) a - 12|C) 3a + 12|D) 3a - 12
 D
 21
 
-Fatore: 6x + 12
-A) 3(x + 4)|B) 6(x + 2)|C) 6(x - 2)|D) 2(x + 6)
-B
+PREENCHER
+Fatorando 6x + 12 obtemos 6(___ + ___).
+x + 2
 22
 
-Calcule: 5² - 3²
-A) 8|B) 10|C) 20|D) 16
-D
+VF
+5² - 3² é igual a 16.
+V
 23
 
-Calcule: (2 + 3) × 4 - 6
-A) 16|B) 12|C) 14|D) 18
-C
+PREENCHER
+(2 + 3) × 4 - 6 = ___.
+14
 24
 
-Calcule: 18 ÷ (3 + 3)
-A) 2|B) 3|C) 6|D) 4
-B
+VF
+18 ÷ (3 + 3) é igual a 3.
+V
 25
 
-Calcule: 2³ × 2²
-A) 24|B) 64|C) 16|D) 32
-D
+PREENCHER
+2³ × 2² = ___.
+32
 18
 
-Calcule: 7 + 4 × 3
-A) 15|B) 33|C) 21|D) 19
-D
+VF
+7 + 4 × 3 é igual a 19.
+V
 19
 
-Calcule: (10 - 2)²
-A) 48|B) 64|C) 72|D) 80
-B
+PREENCHER
+(10 - 2)² = ___.
+64
 20
 
-Calcule: 15 - 3 × 2 + 4
-A) 13|B) 10|C) 16|D) 19
-A
+VF
+15 - 3 × 2 + 4 é igual a 13.
+V
 21
 
-Complete a sequência: 3, 6, 9, 12, ___
-A) 14|B) 15|C) 18|D) 16
-B
+PREENCHER
+O próximo número da sequência 3, 6, 9, 12 é ___.
+15
 22
 
-Complete a sequência: 2, 4, 8, 16, ___
-A) 36|B) 24|C) 32|D) 30
-C
+VF
+O próximo número da sequência 2, 4, 8, 16 é 32.
+V
 23
 
-Complete a sequência: 100, 90, 80, 70, ___
-A) 60|B) 50|C) 65|D) 75
-A
+PREENCHER
+O próximo número da sequência 100, 90, 80, 70 é ___.
+60
 24
 
-Complete a sequência: 1, 4, 9, 16, ___
-A) 24|B) 25|C) 21|D) 20
-B
+VF
+O próximo número da sequência 1, 4, 9, 16 é 25.
+V
 25
 
-Complete a sequência: 5, 10, 20, 40, ___
-A) 60|B) 90|C) 80|D) 70
-C
+PREENCHER
+O próximo número da sequência 5, 10, 20, 40 é ___.
+80
 18
 
-Complete a sequência: 7, 11, 15, 19, ___
-A) 25|B) 27|C) 21|D) 23
-D
+VF
+O próximo número da sequência 7, 11, 15, 19 é 23.
+V
 19
 
-Complete a sequência: 50, 45, 40, 35, ___
-A) 30|B) 25|C) 32|D) 28
-A
+PREENCHER
+O próximo número da sequência 50, 45, 40, 35 é ___.
+30
 20
 
-Complete a sequência: 1, 2, 3, 5, 8, ___
-A) 15|B) 14|C) 13|D) 11
-C
+VF
+O próximo número da sequência de Fibonacci 1, 2, 3, 5, 8 é 13.
+V
 21
 
+MULTIPLA
 Qual é a média de 4, 6, 8 e 10?
 A) 9|B) 7|C) 6|D) 8
 B
 22
 
-Qual é a mediana de 3, 9, 5, 1, 7?
-A) 7|B) 5|C) 6|D) 3
-B
+PREENCHER
+A mediana de 3, 9, 5, 1, 7 é ___.
+5
 23
 
-Qual é a moda de 2, 4, 4, 5, 6, 4, 7?
-A) 5|B) 7|C) 4|D) 6
-C
+VF
+A moda de 2, 4, 4, 5, 6, 4, 7 é 4.
+V
 24
 
-Se um dado é lançado, qual é a chance de sair um número par?
-A) 4/6|B) 2/6|C) 1/6|D) 1/2
-D
+PREENCHER
+A probabilidade de sair número par num dado é ___ (em fração).
+1/2
 25
 
-Em uma urna com 3 bolas vermelhas e 2 azuis, qual a probabilidade de tirar uma azul?
-A) 1/5|B) 2/3|C) 3/5|D) 2/5
-D
+VF
+A probabilidade de tirar uma bola azul de uma urna com 3 vermelhas e 2 azuis é 2/5.
+V
 18
 
-Qual é a média de 10, 20 e 30?
-A) 20|B) 15|C) 30|D) 25
-A
+PREENCHER
+A média de 10, 20 e 30 é ___.
+20
 19
 
-Qual é a mediana de 8, 2, 9, 4, 6?
-A) 6|B) 8|C) 9|D) 4
-A
+VF
+A mediana de 8, 2, 9, 4, 6 é 6.
+V
 20
 
-Qual é a moda de 1, 1, 2, 3, 3, 3, 4?
-A) 2|B) 1|C) 3|D) 4
-C
+PREENCHER
+A moda de 1, 1, 2, 3, 3, 3, 4 é ___.
+3
 21
 
-Se há 5 camisetas e 2 são pretas, qual a fração de camisetas pretas?
-A) 2/5|B) 2/3|C) 3/5|D) 1/5
-A
+VF
+Se há 5 camisetas e 2 são pretas, a fração de pretas é 2/5.
+V
 22
 
-Se um aluno acerta 18 de 20 questões, qual foi seu aproveitamento?
-A) 80%|B) 85%|C) 90%|D) 95%
-C
+PREENCHER
+Um aluno que acerta 18 de 20 questões tem aproveitamento de ___%.
+90
 23
 
-Uma pessoa compra 3 cadernos de R$ 18. Quanto paga?
-A) R$ 54|B) R$ 48|C) R$ 60|D) R$ 63
-A
+VF
+3 cadernos de R$ 18 custam R$ 54 no total.
+V
 24
 
-Um carro percorre 120 km em 2 horas. Qual foi a velocidade média?
-A) 80 km/h|B) 50 km/h|C) 70 km/h|D) 60 km/h
-D
+PREENCHER
+Um carro que percorre 120 km em 2 horas tem velocidade média de ___ km/h.
+60
 25
 
-Se um trabalho leva 6 dias para 4 pessoas, quantos dias levará para 8 pessoas, assumindo o mesmo ritmo?
-A) 5 dias|B) 2 dias|C) 3 dias|D) 4 dias
-C
+VF
+Um trabalho que leva 6 dias para 4 pessoas levará 3 dias para 8 pessoas.
+V
 18
 
-Uma piscina tem 10 m de comprimento e 4 m de largura. Qual é a área?
-A) 14 m²|B) 44 m²|C) 20 m²|D) 40 m²
-D
+PREENCHER
+A área de uma piscina de 10 m × 4 m é ___ m².
+40
 19
 
-Uma compra de R$ 360 será dividida igualmente entre 12 pessoas. Quanto cada uma paga?
-A) R$ 24|B) R$ 30|C) R$ 36|D) R$ 32
-B
+VF
+R$ 360 divididos entre 12 pessoas corresponde a R$ 30 por pessoa.
+V
 20
 
-Um reservatório tem 500 L e perde 50 L. Quantos litros restam?
-A) 450 L|B) 430 L|C) 400 L|D) 460 L
-A
+PREENCHER
+500 L menos 50 L resulta em ___ L.
+450
 21
 
-Se um produto custa R$ 80 e sofre aumento de 50%, qual é o novo preço?
-A) R$ 120|B) R$ 130|C) R$ 110|D) R$ 100
-A
+VF
+Um produto de R$ 80 com aumento de 50% passa a custar R$ 120.
+V
 22
 
-Pedro leu 45 páginas em 3 dias, sempre no mesmo ritmo. Quantas páginas por dia?
-A) 18|B) 15|C) 12|D) 10
-B
+PREENCHER
+Pedro lê 45 páginas em 3 dias. Em média, lê ___ páginas por dia.
+15
 23
 
-Uma sala tem 8 fileiras com 6 cadeiras em cada. Quantas cadeiras há?
-A) 56|B) 42|C) 54|D) 48
-D
+VF
+Uma sala com 8 fileiras de 6 cadeiras tem 48 cadeiras no total.
+V
 24
 
-Se um relógio atrasa 20 minutos por dia, em 5 dias atrasa quantos minutos?
-A) 60 minutos|B) 80 minutos|C) 120 minutos|D) 100 minutos
-D
+PREENCHER
+Um relógio que atrasa 20 min por dia, em 5 dias atrasa ___ minutos.
+100
 25

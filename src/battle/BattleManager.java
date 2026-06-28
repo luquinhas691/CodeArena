@@ -1,117 +1,88 @@
 package battle;
 
-import character.Habilidade;
 import character.Player;
 import character.Enemy;
 import character.Npcs;
 import game.RoteiroLoader;
+import game.ScoreSystem;
 import question.Question;
 import question.QuestionLoader;
-import question.TimedQuestion;
-import question.TimedQuestionImpl;
 import java.util.Scanner;
 
-
 public class BattleManager {
-
-    /** Tempo base (segundos) para questões cronometradas. */
-    private static final int TEMPO_BASE_FASE4 = 20;
 
     private final QuestionLoader questionLoader;
     private final RoteiroLoader  roteiro;
     private final Player         jogador;
     private final Scanner        scanner;
+    private final ScoreSystem    score;
 
     public BattleManager(QuestionLoader ql, RoteiroLoader rl,
-                         Player jogador, Scanner scanner) {
+                         Player jogador, Scanner scanner, ScoreSystem score) {
         this.questionLoader = ql;
         this.roteiro        = rl;
         this.jogador        = jogador;
         this.scanner        = scanner;
+        this.score          = score;
     }
-
-    // ------------------------------------------------------------------
-    //  Fase 1 – Homem-Pedra (8 acertos consecutivos, inimigo não ataca)
-    // ------------------------------------------------------------------
 
     public boolean fase1() {
         roteiro.fase1();
         int acertos = 0;
-        while (acertos < 8) {
+        while (acertos < 4) {
             Question q = questionLoader.proximaPerguntaA();
-            if (q == null) {
-                System.out.println("ERRO: Sem perguntas suficientes para a fase 1.");
-                return false;
-            }
+            if (q == null) { System.out.println("ERRO: Sem perguntas suficientes."); return false; }
 
-            // Hanny pode usar auto-acerto na fase 1 também
-            if (tentarAutoAcerto()) {
-                acertos++;
-                System.out.println("Acerto automático! (" + acertos + "/8)");
-                continue;
-            }
+            mostrarStatus(null);
+            oferecerHabilidade();
 
             q.mostrarEnunciado();
             q.mostrarAlternativas();
             System.out.print("> ");
             String resposta = scanner.nextLine();
+
             if (questionLoader.validarResposta(q, resposta)) {
                 acertos++;
-                System.out.println("Acertou! (" + acertos + "/8)");
+                score.registrarAcerto(q.getScore());
+                System.out.println("Acertou! (" + acertos + "/4)  [+" + q.getScore() + " pts]");
             } else {
+                score.registrarErro();
                 System.out.println("Errou! Tente novamente.");
             }
         }
         roteiro.fase1Ganho();
+        jogador.resetarHabilidade();
         return true;
     }
 
-    // ------------------------------------------------------------------
-    //  Fase 2 – Homem-Morcego
-    // ------------------------------------------------------------------
-
     public boolean fase2() {
         roteiro.fase2();
-        return batalhaComum(Npcs.homemMorcego(), false);
+        boolean resultado = batalhaComum(Npcs.homemMorcego(), false);
+        jogador.resetarHabilidade();
+        return resultado;
     }
-
-    // ------------------------------------------------------------------
-    //  Fase 3 – Sereia
-    // ------------------------------------------------------------------
 
     public boolean fase3() {
         roteiro.fase3();
-        return batalhaComum(Npcs.sereia(), true);
+        boolean resultado = batalhaComum(Npcs.sereia(), true);
+        jogador.resetarHabilidade();
+        return resultado;
     }
-
-    // ------------------------------------------------------------------
-    //  Fase 4 – Goblin (questões cronometradas via TimedQuestion)
-    // ------------------------------------------------------------------
 
     public boolean fase4() {
         roteiro.fase4();
-        return batalhaComTempo(Npcs.goblin());
+        return batalhaComum(Npcs.goblin(), true);
     }
-
-    // ------------------------------------------------------------------
-    //  Batalha comum (fases 2 e 3)
-    // ------------------------------------------------------------------
 
     private boolean batalhaComum(Enemy inimigo, boolean usarPerguntasB) {
         while (jogador.estaVivo() && inimigo.estaVivo()) {
             Question q = usarPerguntasB
                     ? questionLoader.proximaPerguntaB()
                     : questionLoader.proximaPerguntaA();
-            if (q == null) {
-                System.out.println("ERRO: Sem perguntas disponíveis.");
-                return false;
-            }
+            if (q == null) { System.out.println("ERRO: Sem perguntas disponíveis."); return false; }
 
-            // Hanny: habilidade de auto-acerto consultada via interface Habilidade
-            if (tentarAutoAcerto()) {
-                aplicarDano(inimigo);
-                continue;
-            }
+            mostrarStatus(inimigo);
+            oferecerHabilidade();
 
             q.mostrarEnunciado();
             q.mostrarAlternativas();
@@ -119,96 +90,51 @@ public class BattleManager {
             String resposta = scanner.nextLine();
 
             if (questionLoader.validarResposta(q, resposta)) {
-                aplicarDano(inimigo);
+                int vidaAntes = inimigo.getVida();
+                jogador.atacar(inimigo, q.getScore());
+                int danoCausado = vidaAntes - inimigo.getVida();
+                score.registrarAcerto(q.getScore());
+                score.registrarDano(danoCausado);
+                System.out.println("Voce acertou! [+" + q.getScore() + " pts] (HP inimigo: " + inimigo.getVida() + ")");
             } else {
+                score.registrarErro();
                 errarResposta(inimigo);
             }
         }
         return resolverFim(inimigo);
     }
 
-    // ------------------------------------------------------------------
-    //  Batalha cronometrada (fase 4) — usa TimedQuestion + Habilidade
-    // ------------------------------------------------------------------
+    private void oferecerHabilidade() {
+        if (!jogador.habilidadeDisponivel()) return;
 
+        System.out.println("\n Habilidade disponivel: " + jogador.getNomeHabilidade());
+        System.out.println("   " + jogador.getDescricaoHabilidade());
+        System.out.print("   Deseja usar agora? (s/n) > ");
 
-    private boolean batalhaComTempo(Enemy inimigo) {
-        int tempoEfetivo = resolverTempoEfetivo();
-
-        System.out.println("\n⚠  ATENÇÃO: Esta fase é CRONOMETRADA! "
-                + "Você tem " + tempoEfetivo + " segundos por pergunta.\n");
-
-        while (jogador.estaVivo() && inimigo.estaVivo()) {
-            Question q = questionLoader.proximaPerguntaB();
-            if (q == null) {
-                System.out.println("ERRO: Sem perguntas disponíveis.");
-                return false;
-            }
-
-            // Hanny: auto-acerto antes de exibir a questão
-            if (tentarAutoAcerto()) {
-                aplicarDano(inimigo);
-                continue;
-            }
-
-            // Questão cronometrada — referenciada apenas pela interface
-            TimedQuestion tq = new TimedQuestionImpl(q, tempoEfetivo);
-            tq.mostrarEnunciadoComTempo();
-            tq.mostrarAlternativas();
-
-            String resposta = tq.lerRespostaComTempo();
-
-            if (resposta == null) {
-                System.out.println("Sem resposta a tempo! O inimigo aproveita a abertura...");
-                inimigo.atacar(jogador);
-                if (!jogador.estaVivo()) System.out.println("Você foi derrotado...");
-            } else if (tq.validarResposta(resposta)) {
-                aplicarDano(inimigo);
-            } else {
-                errarResposta(inimigo);
-            }
+        String escolha = scanner.nextLine().trim().toLowerCase();
+        if (escolha.equals("s")) {
+            int vidaAntes = jogador.getVida();
+            jogador.ativarHabilidade();
+            int cura = jogador.getVida() - vidaAntes;
+            if (cura > 0) score.registrarCura(cura);
+        } else {
+            System.out.println("   [Habilidade guardada para outro turno]");
         }
-        return resolverFim(inimigo);
-    }
-
-    // ------------------------------------------------------------------
-    //  Lógica de habilidades — acesso exclusivo via interface Habilidade
-    // ------------------------------------------------------------------
-  
-    private boolean tentarAutoAcerto() {
-        Habilidade h = jogador.getHabilidade();
-        if (h instanceof character.HabilidadeAutoAcerto && h.estaDisponivel()) {
-            h.ativar();
-            return true;
-        }
-        return false;
-    }
-
-   
-    private int resolverTempoEfetivo() {
-        Habilidade h = jogador.getHabilidade();
-        if (h instanceof character.HabilidadeTempoExtra && h.estaDisponivel()) {
-            h.ativar();
-            return TEMPO_BASE_FASE4 + character.HabilidadeTempoExtra.BONUS_SEGUNDOS;
-        }
-        return TEMPO_BASE_FASE4;
-    }
-
-    // ------------------------------------------------------------------
-    //  Auxiliares compartilhados
-    // ------------------------------------------------------------------
-
-    private void aplicarDano(Enemy inimigo) {
-        int dano = jogador.getForca();
-        inimigo.receberDano(dano);
-        System.out.println("Você acertou! Causou " + dano + " de dano em "
-                + inimigo.getNome() + " (HP: " + inimigo.getVida() + ")");
     }
 
     private void errarResposta(Enemy inimigo) {
         System.out.println("Resposta errada!");
         inimigo.atacar(jogador);
-        if (!jogador.estaVivo()) System.out.println("Você foi derrotado...");
+        if (!jogador.estaVivo()) System.out.println("Voce foi derrotado...");
+    }
+
+    private void mostrarStatus(Enemy inimigo) {
+        System.out.println("\n── Status ──────────────────────────────");
+        System.out.println("  " + jogador.getNome() + " — HP: " + jogador.getVida()
+                + "  |  Pontos: " + score.getPontuacao());
+        if (inimigo != null)
+            System.out.println("  " + inimigo.getNome() + " — HP: " + inimigo.getVida());
+        System.out.println("────────────────────────────────────────");
     }
 
     private boolean resolverFim(Enemy inimigo) {

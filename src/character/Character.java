@@ -15,9 +15,12 @@ public abstract class Character {
 
     public boolean estaVivo() { return vida > 0; }
 
-    public String getNome() { return nome; }
-    public int getVida() { return vida; }
-    public void setVida(int vida) { this.vida = Math.max(0, Math.min(vida, vidaMaxima)); }
-    public int getForca() { return forca; }
-    public void setForca(int forca) { this.forca = forca; }
+    public String getNome()    { return nome; }
+    public int    getVida()    { return vida; }
+    public int    getForca()   { return forca; }
+    public void   setForca(int forca) { this.forca = forca; }
+
+    public void setVida(int vida) {
+        this.vida = Math.max(0, Math.min(vida, vidaMaxima));
+    }
 }

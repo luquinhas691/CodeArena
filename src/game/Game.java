@@ -1,5 +1,7 @@
 package game;
 
+import character.Pete;
+import character.Hanny;
 import character.Player;
 import battle.BattleManager;
 import question.QuestionLoader;
@@ -7,13 +9,15 @@ import java.util.Scanner;
 
 public class Game {
     private RoteiroLoader roteiro;
-    private Scanner scanner;
+    private Scanner       scanner;
+    private ScoreSystem   score;
     String arquivoA;
     String arquivoB;
 
     public Game() {
         scanner = new Scanner(System.in);
         roteiro = new RoteiroLoader("roteiro.txt");
+        score   = new ScoreSystem();
     }
 
     public void iniciar() {
@@ -23,7 +27,7 @@ public class Game {
 
         Player jogador = escolherPersonagem();
 
-        if (jogador.getNome().equals("Pete")) {
+        if (jogador instanceof Pete) {
             roteiro.introducaoPete();
             arquivoA = "MT_A.txt";
             arquivoB = "MT_B.txt";
@@ -34,15 +38,15 @@ public class Game {
         }
 
         QuestionLoader ql = new QuestionLoader(arquivoA, arquivoB);
-        BattleManager bm  = new BattleManager(ql, roteiro, jogador, scanner);
+        BattleManager  bm = new BattleManager(ql, roteiro, jogador, scanner, score);
 
-        if (!bm.fase1()) { gameOver(); return; }
-        if (!bm.fase2()) { gameOver(); return; }
-        if (!bm.fase3()) { gameOver(); return; }
-        if (!bm.fase4()) { gameOver(); return; }
+        if (!bm.fase1()) { encerrar(jogador, false); return; }
+        if (!bm.fase2()) { encerrar(jogador, false); return; }
+        if (!bm.fase3()) { encerrar(jogador, false); return; }
+        if (!bm.fase4()) { encerrar(jogador, false); return; }
 
         roteiro.finalGame();
-        System.out.println("\nParabéns! Você salvou seu amigo e o mundo!");
+        encerrar(jogador, true);
     }
 
     private Player escolherPersonagem() {
@@ -50,12 +54,12 @@ public class Game {
         System.out.println("║        ESCOLHA SEU PERSONAGEM            ║");
         System.out.println("╠══════════════════════════════════════════╣");
         System.out.println("║  1 - PETE   │ Força 35 │ Vida 100        ║");
-        System.out.println("║    ⏳ Habilidade: Controle do Tempo      ║");
-        System.out.println("║       +15s em cada questão cronometrada  ║");
+        System.out.println("║    💥 Habilidade: Golpe Duplo            ║");
+        System.out.println("║       Dobra o dano do próximo ataque     ║");
         System.out.println("╠══════════════════════════════════════════╣");
         System.out.println("║  2 - HANNY  │ Força 25 │ Vida 120        ║");
-        System.out.println("║    🧠 Habilidade: Dedução Lógica         ║");
-        System.out.println("║       Acerta 1 questão automaticamente   ║");
+        System.out.println("║    💚 Habilidade: Pulso Vital            ║");
+        System.out.println("║       Recupera 30 de vida                ║");
         System.out.println("╚══════════════════════════════════════════╝");
 
         int opcao = -1;
@@ -70,19 +74,18 @@ public class Game {
             }
         }
 
-        Player p = opcao == 1
-                ? new Player("Pete",  100, 35)
-                : new Player("Hanny", 120, 25);
-
+        Player p = opcao == 1 ? new Pete() : new Hanny();
         System.out.println("\n>>> Você escolheu " + p.getNome() + "!");
-        System.out.println("    Habilidade: " + p.getHabilidade().getNome()
-                + " — " + p.getHabilidade().getDescricao());
+        System.out.println("    Habilidade: " + p.getNomeHabilidade()
+                + " — " + p.getDescricaoHabilidade());
         System.out.println();
         return p;
     }
 
-    private void gameOver() {
-        System.out.println("\nGAME OVER. A maldição se espalhou...");
+    private void encerrar(Player jogador, boolean vitoria) {
+        if (!vitoria) System.out.println("\nGAME OVER. A maldição se espalhou...");
+        else          System.out.println("\nParabéns! Você salvou seu amigo e o mundo!");
+        score.exibirEstatisticas(vitoria, jogador.getVida());
         System.exit(0);
     }
 }

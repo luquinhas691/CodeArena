@@ -1,34 +1,30 @@
 package question;
 
-public class Question {
-    private String enunciado;
-    private String[] alternativas;
-    private String resposta;
-    private int score;
+/**
+ * Classe base abstrata para todos os tipos de questão.
+ * Subclasses: MultipleChoiceQuestion, TrueFalseQuestion, FillQuestion.
+ */
+public abstract class Question {
 
-    public Question(String enunciado, String[] alternativas, String resposta, int score) {
+    protected String enunciado;
+    protected String resposta;
+    protected int    score;
+
+    public Question(String enunciado, String resposta, int score) {
         this.enunciado = enunciado;
-        this.alternativas = alternativas;
-        this.resposta = resposta;
-        this.score = score;
+        this.resposta  = resposta;
+        this.score     = score;
     }
 
     public String getEnunciado() { return enunciado; }
-    public String[] getAlternativas() { return alternativas; }
-    public String getResposta() { return resposta; }
-    public int getScore() { return score; }
+    public String getResposta()  { return resposta; }
+    public int    getScore()     { return score; }
 
     public void mostrarEnunciado() {
         System.out.println("\n" + enunciado);
     }
 
-    public void mostrarAlternativas() {
-        if (alternativas != null) {
-            for (String alt : alternativas) {
-                System.out.println("   " + alt.trim());
-            }
-        }
-    }
+    public abstract void mostrarAlternativas();
 
     public boolean validarResposta(String respostaUsuario) {
         return respostaUsuario.trim().equalsIgnoreCase(resposta.trim());

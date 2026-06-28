@@ -1,31 +1,34 @@
 package character;
 
-// Dados do personagem escolhido pelo jogador
-public class Player extends Character {
+public abstract class Player extends Character {
 
-    /** Habilidade especial deste personagem. Nunca null após construção. */
-    private final Habilidade habilidade;
+    protected Habilidade habilidade;
 
     public Player(String nome, int vida, int forca) {
         super(nome, vida, forca);
-        this.habilidade = criarHabilidade(nome);
     }
 
-    // ------------------------------------------------------------------
-    //  Habilidade – exposta apenas pela interface
-    // ------------------------------------------------------------------
+    public String  getNomeHabilidade()      { return habilidade.getNome(); }
+    public String  getDescricaoHabilidade() { return habilidade.getDescricao(); }
+    public boolean habilidadeDisponivel()   { return habilidade.estaDisponivel(); }
+    public void    ativarHabilidade()       { habilidade.ativar(); }
+    public void    resetarHabilidade()      { habilidade.resetar(); }
 
-  
-    public Habilidade getHabilidade() {
-        return habilidade;
-    }
-
-    // ------------------------------------------------------------------
-    //  Combate
-    // ------------------------------------------------------------------
+    public int consumirMultiplicadorDano() { return 1; }
 
     public void atacar(Enemy inimigo) {
-        int dano = this.getForca();
+        int multiplicador = consumirMultiplicadorDano();
+        int dano = this.getForca() * multiplicador;
+        if (multiplicador > 1) System.out.println("\n DANO DOBRADO!");
+        System.out.println(this.getNome() + " ataca " + inimigo.getNome()
+                + " causando " + dano + " de dano!");
+        inimigo.receberDano(dano);
+    }
+
+    public void atacar(Enemy inimigo, int scoreDaQuestao) {
+        int multiplicador = consumirMultiplicadorDano();
+        int dano = (this.getForca() + scoreDaQuestao) * multiplicador;
+        if (multiplicador > 1) System.out.println("\n DANO DOBRADO!");
         System.out.println(this.getNome() + " ataca " + inimigo.getNome()
                 + " causando " + dano + " de dano!");
         inimigo.receberDano(dano);
@@ -39,30 +42,7 @@ public class Player extends Character {
 
     public void curar(int cura) {
         this.setVida(this.getVida() + cura);
-        System.out.println(this.getNome() + " se curou em " + cura
-                + ". Vida: " + this.getVida());
-    }
-
-    // ------------------------------------------------------------------
-    //  Fábrica de habilidades (privado — não vaza implementações)
-    // ------------------------------------------------------------------
-
-    private static Habilidade criarHabilidade(String nome) {
-        if (nome.equalsIgnoreCase("Pete"))  return new HabilidadeTempoExtra();
-        if (nome.equalsIgnoreCase("Hanny")) return new HabilidadeAutoAcerto();
-        // Personagem sem habilidade: retorna uma implementação nula segura
-        return new HabilidadeNula();
-    }
-
-    // ------------------------------------------------------------------
-    //  Implementação nula (Null Object) — evita null checks no jogo
-    // ------------------------------------------------------------------
-
-    private static class HabilidadeNula implements Habilidade {
-        @Override public String getNome()       { return "Nenhuma"; }
-        @Override public String getDescricao()  { return "Sem habilidade especial."; }
-        @Override public boolean estaDisponivel() { return false; }
-        @Override public void ativar()          { /* noop */ }
+        System.out.println(this.getNome() + " recuperou " + cura
+                + " de vida. Vida: " + this.getVida());
     }
 }
-
