@@ -7,6 +7,7 @@ import battle.BattleManager;
 import question.QuestionLoader;
 import java.util.Scanner;
 
+/** Controla o fluxo geral da partida: seleção de personagem, sequência de fases e tela final. */
 public class Game {
     private RoteiroLoader roteiro;
     private Scanner       scanner;

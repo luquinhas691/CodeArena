@@ -1,5 +1,6 @@
 package character;
 
+/** Classe base abstrata para personagens do jogo (jogador e inimigos). */
 public abstract class Character {
     protected String nome;
     protected int vida;

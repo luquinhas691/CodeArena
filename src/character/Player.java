@@ -1,5 +1,6 @@
 package character;
 
+/** Representa o jogador, com vida, força e uma habilidade especial própria do personagem escolhido. */
 public abstract class Player extends Character {
 
     protected Habilidade habilidade;

@@ -9,6 +9,10 @@ import question.Question;
 import question.QuestionLoader;
 import java.util.Scanner;
 
+/**
+ * Controla as rodadas de batalha entre o jogador e os inimigos.
+ * Cada fase representa um confronto contra um NPC diferente.
+ */
 public class BattleManager {
 
     private final QuestionLoader questionLoader;
@@ -26,6 +30,7 @@ public class BattleManager {
         this.score          = score;
     }
 
+    /** Fase 1 — Homem-Pedra: tutorial, exige 4 acertos consecutivos, inimigo não ataca. */
     public boolean fase1() {
         roteiro.fase1();
         int acertos = 0;
@@ -55,6 +60,7 @@ public class BattleManager {
         return true;
     }
 
+    /** Fase 2 — Homem-Morcego: batalha comum com perguntas do tipo A. */
     public boolean fase2() {
         roteiro.fase2();
         boolean resultado = batalhaComum(Npcs.homemMorcego(), false);
@@ -62,6 +68,7 @@ public class BattleManager {
         return resultado;
     }
 
+    /** Fase 3 — Sereia: batalha comum com perguntas do tipo B. */
     public boolean fase3() {
         roteiro.fase3();
         boolean resultado = batalhaComum(Npcs.sereia(), true);
@@ -69,11 +76,13 @@ public class BattleManager {
         return resultado;
     }
 
+    /** Fase 4 — Goblin: batalha final, também usa perguntas do tipo B. */
     public boolean fase4() {
         roteiro.fase4();
         return batalhaComum(Npcs.goblin(), true);
     }
 
+    /** Fluxo genérico de batalha (usado pelas fases 2, 3 e 4): pergunta, resposta, ataque ou penalidade. */
     private boolean batalhaComum(Enemy inimigo, boolean usarPerguntasB) {
         while (jogador.estaVivo() && inimigo.estaVivo()) {
             Question q = usarPerguntasB
@@ -104,6 +113,7 @@ public class BattleManager {
         return resolverFim(inimigo);
     }
 
+    /** Oferece ao jogador a opção de usar sua habilidade especial neste turno, se disponível. */
     private void oferecerHabilidade() {
         if (!jogador.habilidadeDisponivel()) return;
 
@@ -128,6 +138,7 @@ public class BattleManager {
         if (!jogador.estaVivo()) System.out.println("Voce foi derrotado...");
     }
 
+    /** Exibe o painel de status (vida do jogador, pontos, vida do inimigo) no início do turno. */
     private void mostrarStatus(Enemy inimigo) {
         System.out.println("\n── Status ──────────────────────────────");
         System.out.println("  " + jogador.getNome() + " — HP: " + jogador.getVida()
@@ -137,6 +148,7 @@ public class BattleManager {
         System.out.println("────────────────────────────────────────");
     }
 
+    /** Determina o desfecho da batalha (vitória/derrota) e aciona o trecho de roteiro correspondente. */
     private boolean resolverFim(Enemy inimigo) {
         if (jogador.estaVivo() && !inimigo.estaVivo()) {
             exibirGanho(inimigo.getNome());

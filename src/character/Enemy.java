@@ -1,5 +1,6 @@
 package character;
 
+/** Representa um adversário controlado pelo sistema, com ataque automático ao jogador. */
 public class Enemy extends Character {
     public Enemy(String nome, int vida, int forca) {
         super(nome, vida, forca);
