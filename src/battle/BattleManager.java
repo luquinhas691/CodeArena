@@ -39,10 +39,10 @@ public class BattleManager {
             if (q == null) { System.out.println("ERRO: Sem perguntas suficientes."); return false; }
 
             mostrarStatus(null);
-            oferecerHabilidade();
 
             q.mostrarEnunciado();
             q.mostrarAlternativas();
+            oferecerHabilidade();
             System.out.print("> ");
             String resposta = scanner.nextLine();
 
@@ -91,10 +91,10 @@ public class BattleManager {
             if (q == null) { System.out.println("ERRO: Sem perguntas disponíveis."); return false; }
 
             mostrarStatus(inimigo);
-            oferecerHabilidade();
 
             q.mostrarEnunciado();
             q.mostrarAlternativas();
+            oferecerHabilidade();
             System.out.print("> ");
             String resposta = scanner.nextLine();
 
